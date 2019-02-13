@@ -81,14 +81,6 @@
   background-image: url("/img/beach.jpg") !important;
 }
 
-.chasm {
-  background-image: url("/img/chasm.jpg") !important;
-}
-
-.cliff {
-  background-image: url("/img/cliff.jpg") !important;
-}
-
 .dawn {
   background-image: url("/img/dawn.jpg") !important;
 }
@@ -103,6 +95,10 @@
 
 .skyline {
   background-image: url("/img/skyline.jpg") !important;
+}
+
+.boats {
+  background-image: url("/img/boats.jpg") !important;
 }
 
 .opacity-0 {

@@ -10,12 +10,11 @@ import Dagverslagen from "./content/dagverslagen.js";
 
 const backdrops = {
     "BEACH": "beach",
-    "CHASM": "chasm",
-    "CLIFF": "cliff",
     "DAWN": "dawn",
     "DONUT": "donut",
     "SAILBOATS": "sailboats",
-    "SKYLINE": "skyline"
+    "SKYLINE": "skyline",
+    "BOATS": "boats"
 };
 
 export default class Landing extends React.Component {
@@ -24,7 +23,7 @@ export default class Landing extends React.Component {
 
         this.state = {
             visible: false,
-            backgroundClass: backdrops.CHASM
+            backgroundClass: backdrops.BEACH
         }
     }
 
@@ -34,7 +33,7 @@ export default class Landing extends React.Component {
 
     selectHome() {
         this.props.history.replace("/");
-        this.setState({backgroundClass: backdrops.CHASM});
+        this.setState({backgroundClass: backdrops.BEACH});
     }
 
     selectDagverslagen() {
