@@ -1,5 +1,5 @@
 import React from "react";
-import {Icon, Container, Header, Segment, Grid, Divider, Label, Step} from "semantic-ui-react";
+import {Icon, Container, Header, Segment, Grid, Divider, Label, Step, Image} from "semantic-ui-react";
 
 export default class Home extends React.Component{
     constructor(props) {
@@ -40,7 +40,7 @@ export default class Home extends React.Component{
 
                             <Grid columns={2} divided>
                                 <Grid.Column>
-                                    <img width={690} src="img/flower.jpg" alt="LBit"/>
+                                    <Image src="img/flower.jpg" alt="LBit"/>
                                 </Grid.Column>
                                         
                                 <Grid.Column>
