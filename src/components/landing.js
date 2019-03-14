@@ -23,7 +23,7 @@ export default class Landing extends React.Component {
 
         this.state = {
             visible: false,
-            backgroundClass: backdrops.BEACH
+            backgroundClass: backdrops.BOATS
         }
     }
 
@@ -33,7 +33,7 @@ export default class Landing extends React.Component {
 
     selectHome() {
         this.props.history.replace("/");
-        this.setState({backgroundClass: backdrops.BEACH});
+        this.setState({backgroundClass: backdrops.BOATS});
     }
 
     selectDagverslagen() {

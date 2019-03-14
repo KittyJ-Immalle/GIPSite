@@ -32,8 +32,8 @@
 }
 
 #banner {
-  border-bottom: 2px solid pink;
-  background-color: #efefef;
+  border-bottom: 7px solid pink;
+  background-color: #ffffff;
   width: 100%;
   padding-bottom: 10px;
 }
@@ -77,6 +77,14 @@
   margin-left: -640px !important;
 }
 
+.text-16 {
+  font-size:16px;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+
 .beach {
   background-image: url("/img/beach.jpg") !important;
 }
@@ -105,8 +113,8 @@
   opacity: 0;
 }
 
-.opacity-10 {
-  opacity: 0.1;
+.opacity-30 {
+  opacity: 0.3;
 }
 
 .opacity-90 {

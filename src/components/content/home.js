@@ -11,7 +11,7 @@ export default class Home extends React.Component{
     }
 
     hideBody() {
-        this.setState({bodyClass: "opacity-10"})
+        this.setState({bodyClass: "opacity-30"})
     }
 
     showBody() {
@@ -30,7 +30,7 @@ export default class Home extends React.Component{
                             </Label>
                             <Header as="h2" color="grey">Welkom!</Header>
                             <Divider/>
-                            <Container>
+                            <Container className="text-20">
                                 Hallo! Ik ben Kitty Jacobs en ik ben 17 jaar oud. 
                                 Ik woon in Sint-Antonius en ik ga naar school op het Immaculata Instituut. 
                                 Ik heb al een aantal jaren een passie voor webdevelopment en hier zie ik mij in de toekomst nog mee bezig. 
@@ -43,10 +43,10 @@ export default class Home extends React.Component{
                                     <Image src="img/flower.jpg" alt="LBit"/>
                                 </Grid.Column>
                                         
-                                <Grid.Column>
+                                <Grid.Column className="text-16">
                                         Daarom heb ik met veel enthousiasme deze website gemaakt.
                                         Op deze website vind je alle informatie terug over mijn stage bij LBit in Beerse. 
-                                        Onder dagverslagen vind je een overzicht van wat ik elke dag op mijn stage heb gedaan. 
+                                        <br></br><br></br>Onder dagverslagen vind je een overzicht van wat ik elke dag op mijn stage heb gedaan. 
                                         Bij reportage photo du stage vind je foto’s van mijn stageplaats met een kleine Franse omschrijving erbij. 
                                         Onder analyse van de huisstijl is er meer informatie te vinden over de huisstijl van LBit. 
                                         De bedrijfseconomische analyse is een analyse van het bedrijf LBit zelf. 
@@ -55,22 +55,36 @@ export default class Home extends React.Component{
                                 </Grid.Column>
                             </Grid>
 
-                            <Step.Group>
-                                <Step>
-                                    <Icon name="desktop"/>
-                                    <Step.Content>
-                                        <Step.Title>a</Step.Title>
-                                        <Step.Description>b</Step.Description>
-                                    </Step.Content>
-                                </Step>
-                                <Step>
-                                    <Icon name="heart"/>
-                                    <Step.Content>
-                                        <Step.Title>a</Step.Title>
-                                        <Step.Description>b</Step.Description>
-                                    </Step.Content>
-                                </Step>
-                            </Step.Group>
+                                <Step.Group stackable="tablet">
+                                    <Step>
+                                        <Icon name="desktop"/>
+                                        <Step.Content>
+                                            <Step.Title>1. Website en Ontwikkeling</Step.Title>
+                                            <Step.Description>Updaten en aanpassen</Step.Description>
+                                        </Step.Content>
+                                    </Step>
+                                    <Step>
+                                        <Icon name="address card outline"/>
+                                        <Step.Content>
+                                            <Step.Title>2. Design</Step.Title>
+                                            <Step.Description>Zoeken naar de beste layout</Step.Description>
+                                        </Step.Content>
+                                    </Step>
+                                    <Step>
+                                        <Icon name="camera"/>
+                                        <Step.Content>
+                                            <Step.Title>3. Fotografie</Step.Title>
+                                            <Step.Description>Zelf de beste foto's maken</Step.Description>
+                                        </Step.Content>
+                                    </Step>
+                                    <Step>
+                                        <Icon name="heart"/>
+                                        <Step.Content>
+                                            <Step.Title>4. Samen</Step.Title>
+                                            <Step.Description>We doen dit samen!</Step.Description>
+                                        </Step.Content>
+                                    </Step>
+                                </Step.Group>
 
                         </Segment>
                     </div>
