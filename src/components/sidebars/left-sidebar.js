@@ -16,7 +16,7 @@ export default class LeftSideBar extends React.Component {
                 <Icon name="newspaper" />
                     Dagverslagen
                 </Menu.Item>
-                <Menu.Item as="a" onClick={this.props.selectA}>
+                <Menu.Item as="a" onClick={this.props.selectReportage}>
                     <Icon name="camera" />
                     Reportage Photo Du Stage
                 </Menu.Item>

@@ -7,6 +7,7 @@ import LeftSideBar from "./sidebars/left-sidebar.js";
 import RightSideBar from "./sidebars/right-sidebar.js";
 import Home from "./content/home.js";
 import Dagverslagen from "./content/dagverslagen.js";
+import Reportage from "./content/reportage.js";
 
 const backdrops = {
     "BEACH": "beach",
@@ -41,8 +42,9 @@ export default class Landing extends React.Component {
         this.setState({backgroundClass: backdrops.SAILBOATS});
     }
 
-    selectA() {
-        this.setState({backgroundClass: backdrops.SKYLINE})
+    selectReportage() {
+        this.props.history.replace("/reportage");
+        this.setState({backgroundClass: backdrops.DAWN})
     }
 
     render() {
@@ -56,7 +58,7 @@ export default class Landing extends React.Component {
                             hideSidebar={this.hideSideBar}
                             selectHome={this.selectHome.bind(this)}
                             selectDagverslagen={this.selectDagverslagen.bind(this)}
-                            selectA={this.selectA.bind(this)}
+                            selectReportage={this.selectReportage.bind(this)}
                         />
                     </Sticky>
                     <Sticky>
@@ -67,6 +69,7 @@ export default class Landing extends React.Component {
                     </Sticky>
                     <Sidebar.Pusher id="central-column">
                         <Switch>
+                            <Route exact path="/reportage" render={prop => <Reportage showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                             <Route exact path="/dagverslagen" render={prop => <Dagverslagen showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                             <Route path="/" render={props => <Home showSideBar={this.showSideBar} hideSideBar={this.hideSideBar} {...props}/>}/>
                         </Switch>

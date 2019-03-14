@@ -42,11 +42,11 @@ export default class Dagsverslagen extends React.Component {
                                         <Header as="h2">2018-10-01</Header>
                                         <Container>
                                             <div class="ui bulleted list">
-                                                <div class="item text-16">Fototoestel afgehaald van de winkel</div>
-                                                <div class="item text-16">Gitlab account aangemaakt</div>
-                                                <div class="item text-16">Begonnen aan "bedrijfseconomische analyse van het stagebedrijf" en afgewerkt, enkel adres nog toevoegen en later eventuele verbeteringen</div>
-                                                <div class="item text-16">Code aan een website (voor een klant) toegevoegd</div>
-                                                <div class="item text-16">Begonnen aan "Analyse v.d. huisstijl v.h. stagebedrijf" en gedeeld met hans.vanbroeckhoven@immalle.be</div>
+                                                <div class="item text-17">Fototoestel afgehaald van de winkel</div>
+                                                <div class="item text-17">Gitlab account aangemaakt</div>
+                                                <div class="item text-17">Begonnen aan "bedrijfseconomische analyse van het stagebedrijf" en afgewerkt, enkel adres nog toevoegen en later eventuele verbeteringen</div>
+                                                <div class="item text-17">Code aan een website (voor een klant) toegevoegd</div>
+                                                <div class="item text-17">Begonnen aan "Analyse v.d. huisstijl v.h. stagebedrijf" en gedeeld met hans.vanbroeckhoven@immalle.be</div>
                                             </div>
                                         </Container>
                                     </Grid.Column>
@@ -54,12 +54,12 @@ export default class Dagsverslagen extends React.Component {
                                         <Header as="h2">2018-10-02</Header>
                                         <Container>
                                             <div class="ui bulleted list">
-                                                <div class="item text-16">"bedrijfseconomische analyse van het stagebedrijf" is nu volledig afgewerkt</div>
-                                                <div class="item text-16">Verder werken aan "Analyse v.d. huisstijl v.h. stagebedrijf" en afgewerkt</div>
-                                                <div class="item text-16">Code aan een website gewijzigd lbit.be</div>
-                                                <div class="item text-16">Een aantal foto's getrokken voor "Un reportage photo du stage"</div>
-                                                <div class="item text-16">Begonnen aan "Case Study stagebedrijf"</div>
-                                                <div class="item text-16">Naar een meeting geweest over ondernemen</div>
+                                                <div class="item text-17">"bedrijfseconomische analyse van het stagebedrijf" is nu volledig afgewerkt</div>
+                                                <div class="item text-17">Verder werken aan "Analyse v.d. huisstijl v.h. stagebedrijf" en afgewerkt</div>
+                                                <div class="item text-17">Code aan een website gewijzigd lbit.be</div>
+                                                <div class="item text-17">Een aantal foto's getrokken voor "Un reportage photo du stage"</div>
+                                                <div class="item text-17">Begonnen aan "Case Study stagebedrijf"</div>
+                                                <div class="item text-17">Naar een meeting geweest over ondernemen</div>
                                             </div>
                                         </Container>
                                     </Grid.Column>
@@ -67,8 +67,8 @@ export default class Dagsverslagen extends React.Component {
                                         <Header as="h2">2018-10-03</Header>
                                         <Container>
                                             <div class="ui bulleted list">
-                                                <div class="item text-16">Werken aan schooltaken</div>
-                                                <div class="item text-16">Verder werken aan "Case Study stagebedrijf" en afgewerkt</div>
+                                                <div class="item text-17">Werken aan schooltaken</div>
+                                                <div class="item text-17">Verder werken aan "Case Study stagebedrijf" en afgewerkt</div>
                                             </div>
                                         </Container>
                                     </Grid.Column>
@@ -78,9 +78,9 @@ export default class Dagsverslagen extends React.Component {
                                             <Header as="h2">2018-10-04</Header>
                                             <Container>
                                                 <div class="ui bulleted list">
-                                                    <div class="item text-16">Verder werken aan "Un reportage photo du stage" en afgewerkt</div>
-                                                    <div class="item text-16">Schema gemaakt over een onderdeel van Leen's programma (dit hangt los van de case study)</div>
-                                                    <div class="item text-16">Verbeteringen toegevoegd aan het document van "Case Study stagebedrijf"</div>
+                                                    <div class="item text-17">Verder werken aan "Un reportage photo du stage" en afgewerkt</div>
+                                                    <div class="item text-17">Schema gemaakt over een onderdeel van Leen's programma (dit hangt los van de case study)</div>
+                                                    <div class="item text-17">Verbeteringen toegevoegd aan het document van "Case Study stagebedrijf"</div>
                                                 </div>
                                             </Container>
                                         </Grid.Column>
@@ -88,9 +88,9 @@ export default class Dagsverslagen extends React.Component {
                                             <Header as="h2">2018-10-05</Header>
                                             <Container>
                                                 <div class="ui bulleted list">
-                                                    <div class="item text-16">Naar een kinderdagverblijf geweest om daar de gebruikte software (door LBit geschreven) te gaan bekijken wanneer het in werking is en om hun software up to date te brengen</div>
-                                                    <div class="item text-16">Begonnen aan "dankmail voor stagebedrijf" en afgewerkt</div>
-                                                    <div class="item text-16">Info opgezocht over Vue.js</div>
+                                                    <div class="item text-17">Naar een kinderdagverblijf geweest om daar de gebruikte software (door LBit geschreven) te gaan bekijken wanneer het in werking is en om hun software up to date te brengen</div>
+                                                    <div class="item text-17">Begonnen aan "dankmail voor stagebedrijf" en afgewerkt</div>
+                                                    <div class="item text-17">Info opgezocht over Vue.js</div>
                                                 </div>
                                                 <br></br>
                                             </Container>
