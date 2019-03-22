@@ -63,7 +63,7 @@
 }
 
 #central-column {
-  height: 100.75vh;
+  height: auto;
   overflow: "scroll";
   height: "400px";
 }
