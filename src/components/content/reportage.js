@@ -1,5 +1,5 @@
 import React from "react";
-import {Icon, Container, Header, Segment, Grid, Divider, Label, Step, Image} from "semantic-ui-react";
+import {Container, Header, Segment, Grid, Divider, Label} from "semantic-ui-react";
 
 export default class Reportage extends React.Component{
     constructor(props) {
@@ -40,30 +40,34 @@ export default class Reportage extends React.Component{
                             <Grid columns={2} divided>
                                 <Grid.Row>
                                     <Grid.Column>
-                                        <Image src='img/gebouw.jpg' alt="a"/>
-                                        <div class="text-17">
-                                            Asjdofihme
+                                        <img class="ui centered large image rounded" src='img/gebouw.jpg' alt="a"/>
+                                        <div class="text-20">
+                                            <br></br>
+                                            Voici mon stage à Beerse! Je sais à quoi vous pensez. Ce n’est pas un bâtiment très grand et oui, c’est vrai. C’est la maison de l’entrepreneuse de LBit à Beerse.
                                         </div>
                                     </Grid.Column>
                                     <Grid.Column>
-                                        <Header as="h2">2018-10-02</Header>
-                                        <Container>
-                                            
-                                        </Container>
+                                        <img class="ui centered large image rounded" src='img/laptop.jpg' alt="a"/>
+                                        <div class="text-20">
+                                            <br></br>
+                                            La plupart du temps je travaille ici sur mon ordinateur portable. Leen, l’entrepreneuse, m’a donné cet ordinateur pour travailler. Elle est trop gentille!
+                                        </div>
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>  
                                         <Grid.Column>
-                                            <Header as="h2">2018-10-04</Header>
-                                            <Container>
-                                                
-                                            </Container>
+                                            <img class="ui centered large image rounded" src='img/leen.jpg' alt="a"/>
+                                            <div class="text-20">
+                                                <br></br>
+                                                Normalement, Leen travaille toujours seule mais pour cette semaine je l’accompagne pendant les heures de travail. Sans moi, elle n’a pas d’autres personnes dans la maison.
+                                            </div>
                                         </Grid.Column>
                                         <Grid.Column>
-                                            <Header as="h2">2018-10-05</Header>
-                                            <Container>
-                                                
-                                            </Container>
+                                            <img class="ui centered large image rounded" src='img/leen.jpg' alt="a"/>
+                                            <div class="text-20">
+                                                <br></br>
+                                                Normalement, Leen travaille toujours seule mais pour cette semaine je l’accompagne pendant les heures de travail. Sans moi, elle n’a pas d’autres personnes dans la maison.
+                                            </div>
                                         </Grid.Column>
                                 </Grid.Row>
                             </Grid>
@@ -72,7 +76,6 @@ export default class Reportage extends React.Component{
                 </Grid.Column>
                 <Grid.Column width={2} className="opacity-0"/>
             </Grid>
-
             
         )
     }
