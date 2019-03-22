@@ -63,10 +63,26 @@ export default class Reportage extends React.Component{
                                             </div>
                                         </Grid.Column>
                                         <Grid.Column>
-                                            <img class="ui centered large image rounded" src='img/leen.jpg' alt="a"/>
+                                            <img class="ui centered large image rounded" src='img/printer.jpg' alt="a"/>
                                             <div class="text-20">
                                                 <br></br>
-                                                Normalement, Leen travaille toujours seule mais pour cette semaine je l’accompagne pendant les heures de travail. Sans moi, elle n’a pas d’autres personnes dans la maison.
+                                                Notre imprimante! Ah oui, tu restes toujours dans ma mémoire! Je me rappelle les moments quand tu as fait les sons: “beep… beep… beep....”. Très magnifique!
+                                            </div>
+                                        </Grid.Column>
+                                </Grid.Row>
+                                <Grid.Row>  
+                                        <Grid.Column>
+                                            <img class="ui centered large image rounded" src='img/lunch.jpg' alt="a"/>
+                                            <div class="text-20">
+                                                <br></br>
+                                                Notre imprimante! Ah oui, tu restes toujours dans ma mémoire! Je me rappelle les moments quand tu as fait les sons: “beep… beep… beep....”. Très magnifique!
+                                            </div>
+                                        </Grid.Column>
+                                        <Grid.Column>
+                                            <img class="ui centered large image rounded" src='img/kitty.jpg' alt="a"/>
+                                            <div class="text-20">
+                                                <br></br>
+                                                Vous pouvez voir que je suis très concentrée. C’est entre moi et mes tâches de l’école et je gagnerai! Rien ne peut m’arrêter!
                                             </div>
                                         </Grid.Column>
                                 </Grid.Row>
