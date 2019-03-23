@@ -45,8 +45,10 @@
 }
 
 #background {
+  padding-top: 10px;
+  overflow-y: auto;
   margin: 0px;
-  height: 90vh;
+  height: 92vh;
   width: 100%;
   background-attachment: fixed;
 }
@@ -92,22 +94,37 @@
 
 .dawn {
   background-image: url("/img/dawn.jpg") !important;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .donut {
   background-image: url("/img/donut.jpg") !important;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .sailboats {
   background-image: url("/img/sailboats.jpg") !important;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .skyline {
   background-image: url("/img/skyline.jpg") !important;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .boats {
   background-image: url("/img/boats.jpg") !important;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .opacity-0 {
