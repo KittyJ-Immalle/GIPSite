@@ -35,7 +35,7 @@
   border-bottom: 7px solid pink;
   background-color: #ffffff;
   width: 100%;
-  padding-bottom: 10px;
+  padding-bottom: 4px;
 }
 
 #lbit {
@@ -46,8 +46,9 @@
 
 #background {
   margin: 0px;
-  height: 90.1vh;
+  height: 90vh;
   width: 100%;
+  background-attachment: fixed;
 }
 
 #search-container {
@@ -124,4 +125,3 @@
 .opacity-100 {
   opacity: 1;
 }
-

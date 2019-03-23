@@ -51,7 +51,7 @@ export default class Landing extends React.Component {
         return (
             <div>
                 <Banner/>
-                <Sidebar.Pushable as={Segment} basic id="background" className={this.state.backgroundClass}>
+                <div id="background" className={this.state.backgroundClass}>
                     <Sticky>
                         <LeftSideBar
                             visible={this.state.visible}
@@ -74,7 +74,7 @@ export default class Landing extends React.Component {
                             <Route path="/" render={props => <Home showSideBar={this.showSideBar} hideSideBar={this.hideSideBar} {...props}/>}/>
                         </Switch>
                     </Sidebar.Pusher>
-                </Sidebar.Pushable>
+                </div>
             </div>
         );
     }
