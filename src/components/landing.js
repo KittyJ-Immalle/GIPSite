@@ -52,28 +52,26 @@ export default class Landing extends React.Component {
             <div>
                 <Banner/>
                 <div id="background" className={this.state.backgroundClass}>
-                    <Sticky>
-                        <LeftSideBar
+                    <Sidebar.Pushable>
+                    <LeftSideBar
                             visible={this.state.visible}
                             hideSidebar={this.hideSideBar}
                             selectHome={this.selectHome.bind(this)}
                             selectDagverslagen={this.selectDagverslagen.bind(this)}
                             selectReportage={this.selectReportage.bind(this)}
                         />
-                    </Sticky>
-                    <Sticky>
                         <RightSideBar
                             visible={this.state.visible}
                             hideSidebar={this.hideSideBar}
                         />
-                    </Sticky>
-                    <Sidebar.Pusher id="central-column">
-                        <Switch>
-                            <Route exact path="/reportage" render={prop => <Reportage showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
-                            <Route exact path="/dagverslagen" render={prop => <Dagverslagen showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
-                            <Route path="/" render={props => <Home showSideBar={this.showSideBar} hideSideBar={this.hideSideBar} {...props}/>}/>
-                        </Switch>
-                    </Sidebar.Pusher>
+                        <Sidebar.Pushable>
+                            <Switch>
+                                <Route exact path="/reportage" render={prop => <Reportage showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
+                                <Route exact path="/dagverslagen" render={prop => <Dagverslagen showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
+                                <Route path="/" render={props => <Home showSideBar={this.showSideBar} hideSideBar={this.hideSideBar} {...props}/>}/>
+                            </Switch>
+                        </Sidebar.Pushable>
+                    </Sidebar.Pushable>
                 </div>
             </div>
         );
