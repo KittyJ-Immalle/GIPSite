@@ -35,21 +35,19 @@
   border-bottom: 7px solid pink;
   background-color: #ffffff;
   width: 100%;
-  padding-bottom: 4px;
+  padding-bottom: 10px;
 }
 
 #lbit {
-  padding-top: 15px;
+  padding-top: 5px;
   padding-left: 30px;
   padding-bottom: 5px;
 }
 
 #background {
-  overflow-y: auto;
   margin: 0px;
-  height: 92vh;
+  height: 90.1vh;
   width: 100%;
-  background-attachment: fixed;
 }
 
 #search-container {
@@ -64,21 +62,19 @@
   height: 38px;
 }
 
+#central-column {
+  height: 89.75vh;
+  overflow: "scroll";
+  height: "400px";
+}
+
 #body-container {
   padding-top: 20px;
-  padding-bottom:40px;
 }
 
 #technical-modal {
   width: 1300px;
   margin-left: -640px !important;
-}
-
-.text-analyse {
-  text-align: center;
-  color: #DBA901;
-  font-family: 'Advent Pro';
-  font-size: 24px;
 }
 
 .text-17 {
@@ -128,3 +124,4 @@
 .opacity-100 {
   opacity: 1;
 }
+
