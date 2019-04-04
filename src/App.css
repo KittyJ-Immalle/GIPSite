@@ -76,9 +76,14 @@
 
 .text-analyse {
   text-align: center;
-  color: #DBA901;
+  color: rgb(161, 125, 5);
   font-family: 'Advent Pro';
-  font-size: 24px;
+  font-size: 25px;
+}
+
+.side-padding {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .text-17 {
