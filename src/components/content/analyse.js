@@ -75,10 +75,18 @@ export default class Analyse extends React.Component{
                                 <Grid.Row>
                                     <div className="text-analyse side-padding">
                                         <br/>Op de website van LBit staan enkele foto’s die veel met elkaar gemeen hebben. Neem bijvoorbeeld deze foto.
+                                        <br/>
                                     </div>
                                 </Grid.Row>
                                 <Grid.Row>
-                                        <img className="ui image centered" src="img/lbit-tab.png"/>
+                                        <img className="ui image centered smaller-image" src="img/lbit-tab.png"/>
+                                </Grid.Row>
+                                <Grid.Row>
+                                    <div className="text-analyse side-padding">
+                                        <br/>De foto is gefilterd in zwart-wit met op de voorgrond de ondernemer, Leen. Door de lach en de goede belichting geeft dit een aangename sfeer. In de foto kan je een acties terugvinden bv. de bewegende auto, de wind in het haar. Je krijgt hierdoor minder de indruk dat het geposeerd was maar meer de indruk dat dit het dagelijks leven is van Leen.
+                                        LBit heeft een heel unieke en mooie huisstijl. Het valt goed op en je kan het overal herkennen.
+                                        <br/><br/><br/>
+                                    </div>
                                 </Grid.Row>
                             </Grid>
 

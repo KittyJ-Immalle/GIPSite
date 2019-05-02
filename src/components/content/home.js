@@ -30,10 +30,12 @@ export default class Home extends React.Component{
                             </Label>
                             <Header as="h2" color="grey">Welkom!</Header>
                             <Divider/>
-                            <Container className="text-20">
-                                Hallo! Ik ben Kitty Jacobs en ik ben 17 jaar oud. 
+                            <img className="ui medium image centered" src="img/logo.png"/>
+                            <Container className="text-analyse">
+                                <br/><br/>Hallo! Ik ben Kitty Jacobs en ik ben 17 jaar oud. 
                                 Ik woon in Sint-Antonius en ik ga naar school op het Immaculata Instituut. 
                                 Ik heb al een aantal jaren een passie voor webdevelopment en hier zie ik mij in de toekomst nog mee bezig.
+                                <br/><br/>
                             </Container>
 
                             <Divider />

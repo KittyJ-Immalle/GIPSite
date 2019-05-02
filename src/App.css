@@ -81,6 +81,11 @@
   font-size: 25px;
 }
 
+.smaller-image {
+  width: 70%;
+  height: 100%;
+}
+
 .side-padding {
   padding-left: 50px;
   padding-right: 50px;
@@ -92,6 +97,10 @@
 
 .text-20 {
   font-size: 20px;
+}
+
+.text-25 {
+  font-size: 25px;
 }
 
 .beach {
