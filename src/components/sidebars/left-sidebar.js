@@ -9,7 +9,7 @@ export default class LeftSideBar extends React.Component {
         return (
             <Sidebar as={Menu} animation="overlay" direction="left" icon="labeled" width="thin" inverted vertical visible={this.props.visible} onMouseLeave={this.props.hideSideBar}>
                 <Menu.Item as="a" onClick={this.props.selectHome}>
-                    <Icon name="home"/>
+                <Icon name="home"/>
                     Home
                 </Menu.Item>
                 <Menu.Item as="a" onClick={this.props.selectDagverslagen}>
@@ -24,9 +24,13 @@ export default class LeftSideBar extends React.Component {
                     <Icon name="building" />
                     Analyse Van De Huisstijl
                 </Menu.Item>
+                <Menu.Item as="a" onClick={this.props.selectCaseStudyOne}>
+                    <Icon name="briefcase" />
+                    Case Study 1
+                </Menu.Item>
                 <Menu.Item as="a">
                     <Icon name="briefcase" />
-                    Case Study
+                    Case Study 2
                 </Menu.Item>
                 <Menu.Item as="a">
                     <Icon name="euro"/>

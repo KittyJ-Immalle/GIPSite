@@ -9,6 +9,7 @@ import Home from "./content/home.js";
 import Dagverslagen from "./content/dagverslagen.js";
 import Reportage from "./content/reportage.js";
 import Analyse from "./content/analyse.js";
+import CaseStudyOne from "./content/case-study-one.js";
 
 const backdrops = {
     "BEACH": "beach",
@@ -53,6 +54,11 @@ export default class Landing extends React.Component {
         this.setState({backgroundClass: backdrops.DONUT})
     }
 
+    selectCaseStudyOne() {
+        this.props.history.replace("/case-study-one");
+        this.setState({backgroundClass: backdrops.SKYLINE})
+    }
+
     render() {
         return (
             <div>
@@ -66,6 +72,7 @@ export default class Landing extends React.Component {
                             selectDagverslagen={this.selectDagverslagen.bind(this)}
                             selectReportage={this.selectReportage.bind(this)}
                             selectAnalyse={this.selectAnalyse.bind(this)}
+                            selectCaseStudyOne={this.selectCaseStudyOne.bind(this)}
                         />
                         <RightSideBar
                             visible={this.state.visible}
@@ -73,6 +80,7 @@ export default class Landing extends React.Component {
                         />
                         <Sidebar.Pushable>
                             <Switch>
+                                <Route exact path="/case-study-one" render={prop => <CaseStudyOne showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/dagverslagen" render={prop => <Dagverslagen showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/reportage" render={prop => <Reportage showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/analyse" render={prop => <Analyse showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>

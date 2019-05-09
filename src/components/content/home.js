@@ -41,11 +41,11 @@ export default class Home extends React.Component{
                             <Divider />
 
                             <Grid columns={2} divided>
-                                <Grid.Column>
-                                    <Image src="img/flower.jpg" alt="LBit"/>
+                                <Grid.Column width={6}>
+                                    <Image size="large" src="img/gebouw.jpg" alt="LBit"/>
                                 </Grid.Column>
                                         
-                                <Grid.Column className="text-17">
+                                <Grid.Column className="text-20">
                                         Daarom heb ik met veel enthousiasme deze website gemaakt.
                                         Op deze website vind je alle informatie terug over mijn stage bij LBit in Beerse. 
                                         <br></br><br></br>Onder dagverslagen vind je een overzicht van wat ik elke dag op mijn stage heb gedaan. 
@@ -57,37 +57,7 @@ export default class Home extends React.Component{
                                 </Grid.Column>
                             </Grid>
 
-                                <Step.Group stackable="tablet">
-                                    <Step>
-                                        <Icon name="desktop"/>
-                                        <Step.Content>
-                                            <Step.Title>1. Website en Ontwikkeling</Step.Title>
-                                            <Step.Description>Updaten en aanpassen</Step.Description>
-                                        </Step.Content>
-                                    </Step>
-                                    <Step>
-                                        <Icon name="address card outline"/>
-                                        <Step.Content>
-                                            <Step.Title>2. Design</Step.Title>
-                                            <Step.Description>Zoeken naar de beste layout</Step.Description>
-                                        </Step.Content>
-                                    </Step>
-                                    <Step>
-                                        <Icon name="camera"/>
-                                        <Step.Content>
-                                            <Step.Title>3. Fotografie</Step.Title>
-                                            <Step.Description>Zelf de beste foto's maken</Step.Description>
-                                        </Step.Content>
-                                    </Step>
-                                    <Step>
-                                        <Icon name="heart"/>
-                                        <Step.Content>
-                                            <Step.Title>4. Samen</Step.Title>
-                                            <Step.Description>We doen dit samen!</Step.Description>
-                                        </Step.Content>
-                                    </Step>
-                                </Step.Group>
-
+                                
                         </Segment>
                     </div>
                 </Grid.Column>

@@ -81,6 +81,10 @@
   font-size: 25px;
 }
 
+.font-advent-pro {
+  font-family: 'Advent Pro';
+}
+
 .smaller-image {
   width: 70%;
   height: 100%;
@@ -101,6 +105,10 @@
 
 .text-25 {
   font-size: 25px;
+}
+
+.text-35 {
+  font-size: 35px;
 }
 
 .beach {
