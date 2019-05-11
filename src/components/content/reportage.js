@@ -88,6 +88,7 @@ export default class Reportage extends React.Component{
                                         </Grid.Column>
                                 </Grid.Row>
                             </Grid>
+                            <br/><br/><Divider /><br/><br/><br/><p className="text-center">Site by <a href="https://github.com/KittyJ-Immalle/GIPSite">Kitty Jacobs</a></p><br/><br/>
                         </Segment>
                     </div>
                 </Grid.Column>

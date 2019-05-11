@@ -54,12 +54,11 @@ export default class CaseStudyOne extends React.Component{
                                         er al veel mee bezig geweest. <br/><br/>Op dit moment zou het programma niet snel even herschreven kunnen worden 
                                         omdat het daar een beetje te groot en complex voor is hoewel de lagenstructuur nog wel behouden wordt. 
                                         Ik heb een schema gemaakt over 1 onderdeel van de website. Het prikbord tonen op het scherm.
-                                        <br/><br/><br/>
                                     </div>
                                 </Grid.Row>
                             </Grid>
 
-
+                            <br/><br/><Divider /><br/><br/><br/><p className="text-center">Site by <a href="https://github.com/KittyJ-Immalle/GIPSite">Kitty Jacobs</a></p><br/><br/>
                         </Segment>
                     </div>
                 </Grid.Column>

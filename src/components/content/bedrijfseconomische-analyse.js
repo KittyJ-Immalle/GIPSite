@@ -61,8 +61,9 @@ export default class BedrijfseconomischeAnalyse extends React.Component{
                             eventuele acties kunnen ondernomen worden. En als laatste wordt er geprobeerd om manieren te vinden waardoor je meer bekend geraakt 
                             op social media. LBit is een heel goed bedrijf als je op zoek bent naar iemand die jou helpt bij het ontwerpen van websites, 
                             het ontwerpen van een logo of als je professionele foto’s nodig hebt.
-                            <br/><br/><br/>
+                            
                         </div>
+                        <br/><br/><Divider /><br/><br/><br/><p className="text-center">Site by <a href="https://github.com/KittyJ-Immalle/GIPSite">Kitty Jacobs</a></p><br/><br/>
                     </Segment>
                     </div>
                 </Grid.Column>

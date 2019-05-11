@@ -85,12 +85,11 @@ export default class Analyse extends React.Component{
                                     <div className="text-analyse side-padding">
                                         <br/>De foto is gefilterd in zwart-wit met op de voorgrond de ondernemer, Leen. Door de lach en de goede belichting geeft dit een aangename sfeer. In de foto kan je een acties terugvinden bv. de bewegende auto, de wind in het haar. Je krijgt hierdoor minder de indruk dat het geposeerd was maar meer de indruk dat dit het dagelijks leven is van Leen.
                                         LBit heeft een heel unieke en mooie huisstijl. Het valt goed op en je kan het overal herkennen.
-                                        <br/><br/><br/>
                                     </div>
                                 </Grid.Row>
                             </Grid>
 
-
+                            <br/><br/><Divider /><br/><br/><br/><p className="text-center">Site by <a href="https://github.com/KittyJ-Immalle/GIPSite">Kitty Jacobs</a></p><br/><br/>
                         </Segment>
                     </div>
                 </Grid.Column>

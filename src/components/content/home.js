@@ -58,8 +58,7 @@ export default class Home extends React.Component{
                                         Ik hoop dat je veel leerplezier hebt!
                                 </Grid.Column>
                             </Grid>
-
-                                
+                            <br/><br/><Divider /><br/><br/><br/><p className="text-center">Site by <a href="https://github.com/KittyJ-Immalle/GIPSite">Kitty Jacobs</a></p><br/><br/>
                         </Segment>
                     </div>
                 </Grid.Column>
