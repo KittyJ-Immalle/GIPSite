@@ -1,13 +1,10 @@
 import React from "react";
-import {Sidebar, Menu, Icon, Input, Divider, Popup} from "semantic-ui-react";
+import {Sidebar, Menu, Icon, Divider, Popup} from "semantic-ui-react";
 
 export default class RightSideBar extends React.Component {
     render() {
         return (
             <Sidebar as={Menu} animation="overlay" direction="right" width="thin" inverted vertical visible={this.props.visible} onMouseLeave={this.props.hideSideBar}>
-                <div id="search-container">
-                    <Input id="search" placeholder="Search..." icon={<Icon name="search" inverted circular />} />
-                </div>
                 <Divider/>
                 <Menu.Item as="h5" header><Icon name="external" />External Links</Menu.Item>
                 <Popup

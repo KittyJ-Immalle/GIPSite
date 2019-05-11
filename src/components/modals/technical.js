@@ -1,8 +1,7 @@
 import React from "react";
-import {Modal, Menu, Icon, Button, Grid, Label} from "semantic-ui-react";
+import {Modal, Menu, Icon, Button, Grid} from "semantic-ui-react";
 
 import ReactJSCard from "../cards/reactjs-card.js";
-import NodeJSCard from "../cards/nodejs-card.js";
 import NPMCard from "../cards/npm-card.js";
 import SemanticJSCard from "../cards/semanticjs-card.js";
 
@@ -46,12 +45,9 @@ export default class Technical extends React.Component {
                 <Modal.Header>List of Frameworks and Libraries for Development</Modal.Header>
                 <Modal.Content>
                     <Modal.Description>
-                        <Grid columns={4}>
+                        <Grid columns={3}>
                             <Grid.Column>
                                 <ReactJSCard/>
-                            </Grid.Column>
-                            <Grid.Column>
-                                <NodeJSCard/>
                             </Grid.Column>
                             <Grid.Column>
                                 <NPMCard/>
@@ -63,20 +59,6 @@ export default class Technical extends React.Component {
                     </Modal.Description>
                 </Modal.Content>
                 <Modal.Actions>
-                <Menu compact>
-                    <Menu.Item as='a' onClick={this.like.bind(this)}>
-                    <Icon name='like' /> Like
-                    <Label color='red' floating>
-                        {this.state.like}
-                    </Label>
-                    </Menu.Item>
-                    <Menu.Item as='a'>
-                    <Icon name='users' /> Views
-                    <Label color='teal' floating>
-                        {this.state.views}
-                    </Label>
-                    </Menu.Item>
-                </Menu>
                     <Button color="blue" onClick={this.close.bind(this)}>Close</Button>
                 </Modal.Actions>
             </Modal>

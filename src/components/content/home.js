@@ -1,5 +1,5 @@
 import React from "react";
-import {Icon, Container, Header, Segment, Grid, Divider, Label, Step, Image} from "semantic-ui-react";
+import {Container, Header, Segment, Grid, Divider, Label, Image} from "semantic-ui-react";
 
 export default class Home extends React.Component{
     constructor(props) {
@@ -11,11 +11,11 @@ export default class Home extends React.Component{
     }
 
     hideBody() {
-        this.setState({bodyClass: "opacity-30"})
+        this.setState({bodyClass: "opacity-40"})
     }
 
     showBody() {
-        this.setState({bodyClass: "opacity-90"})
+        this.setState({bodyClass: "opacity-100"})
     }
 
     render() {
@@ -30,8 +30,8 @@ export default class Home extends React.Component{
                             </Label>
                             <Header as="h2" color="grey">Welkom!</Header>
                             <Divider/>
-                            <img className="ui medium image centered" src="img/logo.png"/>
-                            <Container className="text-analyse">
+                            <img alt="" className="ui medium image centered" src="img/logo.png"/>
+                            <Container className="font-advent-pro text-25 line-spacing text-center">
                                 <br/><br/>Hallo! Ik ben Kitty Jacobs en ik ben 17 jaar oud. 
                                 Ik woon in Sint-Antonius en ik ga naar school op het Immaculata Instituut. 
                                 Ik heb al een aantal jaren een passie voor webdevelopment en hier zie ik mij in de toekomst nog mee bezig.
@@ -45,7 +45,7 @@ export default class Home extends React.Component{
                                     <Image size="large" src="img/gebouw.jpg" alt="LBit"/>
                                 </Grid.Column>
                                         
-                                <Grid.Column className="text-20">
+                                <Grid.Column className="font-advent-pro text-25 line-spacing text-center">
                                         Daarom heb ik met veel enthousiasme deze website gemaakt.
                                         Op deze website vind je alle informatie terug over mijn stage bij LBit in Beerse. 
                                         <br></br><br></br>Onder dagverslagen vind je een overzicht van wat ik elke dag op mijn stage heb gedaan. 

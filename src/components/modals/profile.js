@@ -1,5 +1,5 @@
 import React from "react";
-import {Modal, Menu, Icon, Button, Label, Segment, Image, Header} from "semantic-ui-react";
+import {Modal, Menu, Icon, Button, Segment, Image, Header} from "semantic-ui-react";
 
 export default class Profile extends React.Component {
     constructor(props){
@@ -61,14 +61,6 @@ export default class Profile extends React.Component {
                     </Modal.Description>
                 </Modal.Content>
                 <Modal.Actions>
-                    <Button as="div" labelPosition="right" onClick={this.incrementCount.bind(this)}>
-                        <Button color="red">
-                            <Icon name="heart"/>
-                        </Button>
-                        <Label as="div" basic color="red" pointing="left">
-                            {this.state.count}
-                        </Label>
-                    </Button>
                     <Button color="blue" onClick={this.close.bind(this)}>Close</Button>
                 </Modal.Actions>
             </Modal>

@@ -6,23 +6,23 @@ export default class Analyse extends React.Component{
         super(props);
 
         this.state = {
-            bodyclassName: "opacity-10"
+            bodyClass: "opacity-10"
         }
     }
 
     hideBody() {
-        this.setState({bodyclassName: "opacity-30"})
+        this.setState({bodyClass: "opacity-40"})
     }
 
     showBody() {
-        this.setState({bodyclassName: "opacity-90"})
+        this.setState({bodyClass: "opacity-100"})
     }
 
     render() {
         return (
             <Grid columns={3}>
-                <Grid.Column width={2} classNameName="opacity-0"/>
-                <Grid.Column width={12} classNameName={this.state.bodyclassName} onMouseEnter={this.props.hideSideBar} onMouseLeave={this.props.showSideBar}>
+                <Grid.Column width={2} className="opacity-0"/>
+                <Grid.Column width={12} className={this.state.bodyClass} onMouseEnter={this.props.hideSideBar} onMouseLeave={this.props.showSideBar}>
                     <div id="body-container" onMouseEnter={this.showBody.bind(this)} onMouseLeave={this.hideBody.bind(this)}>
                     <Segment>
                             <Label as="a" color="blue" ribbon>
@@ -31,12 +31,12 @@ export default class Analyse extends React.Component{
                             <Header as="h2"color="grey">Analyse v.d. huisstijl</Header>
                             <Divider />
 
-                            <img className="ui medium image centered" src="img/logo.png"/>
+                            <img alt="" className="ui medium image centered" src="img/logo.png"/>
 
                             <Grid columns={2} divided>
                                 <Grid.Row>
                                     <Grid.Column>
-                                        <img className="ui image centered" src="img/website.png"/>
+                                        <img alt="" className="ui image centered" src="img/website.png"/>
                                     </Grid.Column>
                                     <Grid.Column>
                                         <div className="text-analyse">
@@ -58,11 +58,11 @@ export default class Analyse extends React.Component{
                                         </div>
                                 </Grid.Row>
                                 <Grid.Row>
-                                    <img className="ui image centered" src="img/website2.png"/>
+                                    <img alt="" className="ui image centered" src="img/website2.png"/>
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column>
-                                        <img className="ui image centered" src="img/lbit-text.png"/>
+                                        <img alt="" className="ui image centered" src="img/lbit-text.png"/>
                                     </Grid.Column>
                                     <Grid.Column>
                                         <div className="text-analyse side-padding">
@@ -79,7 +79,7 @@ export default class Analyse extends React.Component{
                                     </div>
                                 </Grid.Row>
                                 <Grid.Row>
-                                        <img className="ui image centered smaller-image" src="img/lbit-tab.png"/>
+                                        <img alt="" className="ui image centered smaller-image" src="img/lbit-tab.png"/>
                                 </Grid.Row>
                                 <Grid.Row>
                                     <div className="text-analyse side-padding">

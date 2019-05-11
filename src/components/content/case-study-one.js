@@ -1,28 +1,28 @@
 import React from "react";
-import {Header, Segment, Grid, Divider, Label, Container} from "semantic-ui-react";
+import {Header, Segment, Grid, Divider, Label} from "semantic-ui-react";
 
 export default class CaseStudyOne extends React.Component{
     constructor(props) {
         super(props);
 
         this.state = {
-            bodyclassName: "opacity-10"
+            bodyClass: "opacity-10"
         }
     }
 
     hideBody() {
-        this.setState({bodyclassName: "opacity-30"})
+        this.setState({bodyClass: "opacity-40"})
     }
 
     showBody() {
-        this.setState({bodyclassName: "opacity-90"})
+        this.setState({bodyClass: "opacity-100"})
     }
 
     render() {
         return (
             <Grid columns={3}>
-                <Grid.Column width={2} classNameName="opacity-0"/>
-                <Grid.Column width={12} classNameName={this.state.bodyclassName} onMouseEnter={this.props.hideSideBar} onMouseLeave={this.props.showSideBar}>
+                <Grid.Column width={2} className="opacity-0"/>
+                <Grid.Column width={12} className={this.state.bodyClass} onMouseEnter={this.props.hideSideBar} onMouseLeave={this.props.showSideBar}>
                     <div id="body-container" onMouseEnter={this.showBody.bind(this)} onMouseLeave={this.hideBody.bind(this)}>
                     <Segment>
                             <Label as="a" color="blue" ribbon>
@@ -30,39 +30,30 @@ export default class CaseStudyOne extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Analyse v.d. huisstijl</Header>
                             <Divider/>
-                                    <div className="text-analyse">
+                                    <div className="font-advent-pro text-25 line-spacing text-center">
+                                        <br/><br/>
                                         <div className="text-35">Case study</div><br/>
                                         Website ‘t Pagaderke<br/>
                                         ‘t Pagaderke is een kinderdagverblijf.<br/> De website https://www.pagaderke.be/ is gemaakt door Leen Braspenning van LBit.
+                                        <br/><br/><br/>
                                     </div>
                                 <Grid>
                                 <Grid.Row>
-                                        <div className="text-analyse side-padding">
-                                        <br/>Je kan hierin goed het lettertype zien in LBit.be. 
-                                        Op de website staat de meeste tekst gecentreerd zodat het gemakkelijker wordt om meer stukken tekst op het scherm te tonen. 
-                                        Dit is hier een voorbeeld van.
-                                        <br/><br/>
-                                        </div>
+                                    <img alt="" className="ui image smaller-image centered" src="img/pagaderke.png"/>
                                 </Grid.Row>
                                 <Grid.Row>
-                                    <img className="ui image centered" src="img/website2.png"/>
-                                </Grid.Row>
-                                <Grid.Row>
-                                    
-                                </Grid.Row>
-                                <Grid.Row>
-                                    <div className="text-analyse side-padding">
-                                        <br/>Op de website van LBit staan enkele foto’s die veel met elkaar gemeen hebben. Neem bijvoorbeeld deze foto.
-                                        <br/>
-                                    </div>
-                                </Grid.Row>
-                                <Grid.Row>
-                                        <img className="ui image centered smaller-image" src="img/lbit-tab.png"/>
-                                </Grid.Row>
-                                <Grid.Row>
-                                    <div className="text-analyse side-padding">
-                                        <br/>De foto is gefilterd in zwart-wit met op de voorgrond de ondernemer, Leen. Door de lach en de goede belichting geeft dit een aangename sfeer. In de foto kan je een acties terugvinden bv. de bewegende auto, de wind in het haar. Je krijgt hierdoor minder de indruk dat het geposeerd was maar meer de indruk dat dit het dagelijks leven is van Leen.
-                                        LBit heeft een heel unieke en mooie huisstijl. Het valt goed op en je kan het overal herkennen.
+                                    <div className="text-25 line-spacing font-advent-pro text-center side-padding">
+                                        Omdat de website al meer dan 4 jaar oud is is de code ervan enorm veel en lang. 
+                                        Er zijn in de loop van de jaren veel aanpassingen gebeurd en zelfs nog op deze moment zelf. 
+                                        Meestal zijn dit geen hele grote aanpassingen maar er moet hier en daar soms nog iets veranderen. 
+                                        In de code vind je ook veel AngularJs en Bootstrap terug. AngularJs is nog niet zo oud maar moest 
+                                        Leen het programma helemaal opnieuw beginnen schrijven zou ze wel eens op zoek gaan naar nieuwere technologieën. <br/><br/>
+                                        Het is niet altijd even gemakkelijk voor haar omdat ze alleen werkt en de tijd en het geld niet heeft om veel 
+                                        cursussen te volgen maar dat kan het weer gemakkelijker maken om aanpassingen te doen omdat je weet waar 
+                                        alles staat en wat  het betekent. .NET zou wel behouden worden. Leen is enorm vertrouwd met .NET en ze is 
+                                        er al veel mee bezig geweest. <br/><br/>Op dit moment zou het programma niet snel even herschreven kunnen worden 
+                                        omdat het daar een beetje te groot en complex voor is hoewel de lagenstructuur nog wel behouden wordt. 
+                                        Ik heb een schema gemaakt over 1 onderdeel van de website. Het prikbord tonen op het scherm.
                                         <br/><br/><br/>
                                     </div>
                                 </Grid.Row>
