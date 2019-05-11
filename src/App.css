@@ -1,3 +1,7 @@
+mark {
+  background-color: lightgrey;
+}
+
 .App {
   text-align: center;
 }
@@ -91,6 +95,11 @@
 
 .smaller-image {
   width: 70%;
+  height: 100%;
+}
+
+.smaller-image-2 {
+  width: 30%;
   height: 100%;
 }
 

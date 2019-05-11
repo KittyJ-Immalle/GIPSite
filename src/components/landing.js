@@ -10,6 +10,8 @@ import Dagverslagen from "./content/dagverslagen.js";
 import Reportage from "./content/reportage.js";
 import Analyse from "./content/analyse.js";
 import CaseStudyOne from "./content/case-study-one.js";
+import CaseStudyTwo from "./content/case-study-two.js";
+import BedrijfseconomischeAnalyse from "./content/bedrijfseconomische-analyse.js";
 
 const backdrops = {
     "BEACH": "beach",
@@ -59,6 +61,16 @@ export default class Landing extends React.Component {
         this.setState({backgroundClass: backdrops.SKYLINE})
     }
 
+    selectCaseStudyTwo() {
+        this.props.history.replace("/case-study-two");
+        this.setState({backgroundClass: backdrops.SKYLINE})
+    }
+
+    selectBedrijfseconomischeAnalyse() {
+        this.props.history.replace("/bedrijfseconomische-analyse");
+        this.setState({backgroundClass: backdrops.SKYLINE})
+    }
+
     render() {
         return (
             <div>
@@ -73,6 +85,8 @@ export default class Landing extends React.Component {
                             selectReportage={this.selectReportage.bind(this)}
                             selectAnalyse={this.selectAnalyse.bind(this)}
                             selectCaseStudyOne={this.selectCaseStudyOne.bind(this)}
+                            selectCaseStudyTwo={this.selectCaseStudyTwo.bind(this)}
+                            selectBedrijfseconomischeAnalyse={this.selectBedrijfseconomischeAnalyse.bind(this)}
                         />
                         <RightSideBar
                             visible={this.state.visible}
@@ -80,6 +94,8 @@ export default class Landing extends React.Component {
                         />
                         <Sidebar.Pushable>
                             <Switch>
+                                <Route exact path="/bedrijfseconomische-analyse" render={prop => <BedrijfseconomischeAnalyse showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
+                                <Route exact path="/case-study-two" render={prop => <CaseStudyTwo showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/case-study-one" render={prop => <CaseStudyOne showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/dagverslagen" render={prop => <Dagverslagen showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/reportage" render={prop => <Reportage showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>

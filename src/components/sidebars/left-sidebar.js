@@ -28,11 +28,11 @@ export default class LeftSideBar extends React.Component {
                     <Icon name="briefcase" />
                     Case Study 1
                 </Menu.Item>
-                <Menu.Item as="a">
+                <Menu.Item as="a" onClick={this.props.selectCaseStudyTwo}>
                     <Icon name="briefcase" />
                     Case Study 2
                 </Menu.Item>
-                <Menu.Item as="a">
+                <Menu.Item as="a" onClick={this.props.selectBedrijfseconomischeAnalyse}>
                     <Icon name="euro"/>
                     Bedrijfseconomische Analyse
                 </Menu.Item>
