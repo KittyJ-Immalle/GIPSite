@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-/video
 /.pnp
 .pnp.js
 
@@ -13,6 +12,8 @@
 /build
 
 # misc
+/video
+
 .DS_Store
 .env.local
 .env.development.local
