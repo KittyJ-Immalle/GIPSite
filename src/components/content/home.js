@@ -41,8 +41,10 @@ export default class Home extends React.Component{
                             <Divider />
 
                             <Grid columns={2} divided>
-                                <Grid.Column width={6}>
-                                    <Image size="large" src="img/gebouw.jpg" alt="LBit"/>
+                                <Grid.Column>
+                                    <video width="100%" controls>
+                                        <source src="/video/gip-video.mp4" type="video/mp4"></source>
+                                    </video>
                                 </Grid.Column>
                                         
                                 <Grid.Column className="font-advent-pro text-25 line-spacing text-center">
