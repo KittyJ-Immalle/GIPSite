@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Header, Segment, Grid, Divider, Label, Image} from "semantic-ui-react";
+import {Container, Header, Segment, Grid, Divider, Label} from "semantic-ui-react";
 
 export default class Home extends React.Component{
     constructor(props) {
