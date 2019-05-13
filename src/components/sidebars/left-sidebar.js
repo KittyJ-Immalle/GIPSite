@@ -36,6 +36,10 @@ export default class LeftSideBar extends React.Component {
                     <Icon name="euro"/>
                     Bedrijfseconomische Analyse
                 </Menu.Item>
+                <Menu.Item as="a" onClick={this.props.selectITTapa}>
+                    <Icon name="euro"/>
+                    IT Tapa
+                </Menu.Item>
                 <ProfileModal/>
                 <TechnicalModal/>
             </Sidebar>
