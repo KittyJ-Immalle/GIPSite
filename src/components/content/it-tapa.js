@@ -33,43 +33,27 @@ export default class ITTapa extends React.Component{
                                     <div className="font-advent-pro text-25 line-spacing text-center">
                                         <br/><br/>
                                         <div className="text-35">Overzicht IT-tapa</div><br/>
+                                        OneNote + klasnotitieblokken<br/>
+                                        OneNote is een handige notitietool van Microsoft die je zowel lokaal op je eigen PC maar ook op OneDrive kan gebruiken 
+                                        en door vele "onderwijs-professionals" (alsook in de bedrijfswereld) wordt gebruikt. Tijdens het eerste deel van de sessie 
+                                        wordt u wegwijs gemaakt in de mogelijkheden die OneNote biedt om notities te maken en onder te verdelen. In het tweede deel 
+                                        gebruiken we de klasnotitie-plugin waarmee u als leerkracht(enteam) de notities van uw leerlingen mee vorm kunt geven.
                                         <br/><br/><br/>
+                                        <a href="/wat-is-onenote">- Wat is OneNote? Werking, synchroniseren, informatie van overal bereikbaar,…<br/></a>
+                                        <a href="/wat-kan-je-met-onenote-doen">- Wat kan je met OneNote doen? Voordelen van OneNote? Waarom zou je OneNote gebruiken? Delen met anderen?<br/></a>
+                                        <a href="/waar-kunnen-we-onenote-gebruiken">- Waar kunnen we OneNote gebruiken?<br/></a>
+                                        <a href="/verschil-onenote-en-onenote-2016">- Verschil OneNote en OneNote 2016<br/></a>
+                                        <a href="/persoonlijke-notitieblok">- Persoonlijke notitieblok<br/></a>
+                                        <br/>
+                                        <a href="/inloggen">- Inloggen tonen en laten doen<br/></a>
+                                        <a href="/hoe-gebruik-je-onenote">- Hoe gebruik je OneNote? Uitleg notitieblok aanmaken.<br/></a>
+                                        <a href="/uitleg-opmaak-uitlijning">- Uitleg opmaak en uitlijning<br/></a>
+                                        <br/>
+                                        <a href="/klasnotitieblok-downloaden">- Klasnotitieblok OneNote downloaden/ hoe het werkt/ wat je ermee kan doen/..<br/></a>
+                                        <a href="/secties-aanmaken">- Sectie's en pagina's aanmaken, personen toevoegen/verwijderen<br/></a>
+                                        <a href="/links-naar-pagina-distribueren-personen">- Links naar andere pagina's, distribueren naar alle/specifieke personen<br/></a>
+                                        <a href="/tips-tricks">- Tips + Tricks bv. Quick notes (= win. Toets + n)<br/></a>
                                     </div>
-                                <Grid>
-                                <Grid.Row>
-                                    - Wat is OneNote? Werking, synchroniseren, informatie van overal bereikbaar,…<br/>
-                                    - Wat kan je met OneNote doen? Voordelen van OneNote? Waarom zou je OneNote gebruiken? Delen met anderen?<br/>
-                                    - Waar kunnen we OneNote gebruiken?<br/>
-                                    - Verschil OneNote en OneNote 2016<br/>
-                                    - Persoonlijke notitieblok<br/>
-                                    - OneDrive, waar kan je alles terugvinden? Waar wordt wat opgeslagen? Lokale notitieblokken, klasnotitieblokken,…<br/>
-                                    <br/>
-                                    - Inloggen tonen en laten doen<br/>
-                                    - Hoe gebruik je OneNote? Uitleg notitieblok aanmaken.<br/>
-                                    - Uitleg opmaak en uitlijning<br/>
-                                    <br/>
-                                    - Klasnotitieblok OneNote downloaden/ hoe het werkt/ wat je ermee kan doen/..<br/>
-                                    - Sectie's en pagina's aanmaken, personen toevoegen/verwijderen<br/>
-                                    - Links naar andere pagina's, distribueren naar alle/specifieke personen<br/>
-                                    - Tips + Tricks bv. Quick notes (= win. Toets + n)<br/>
-                                </Grid.Row>
-                                <Grid.Row>
-                                    <div className="text-25 line-spacing font-advent-pro text-center side-padding">
-                                        Omdat de website al meer dan 4 jaar oud is is de code ervan enorm veel en lang. 
-                                        Er zijn in de loop van de jaren veel aanpassingen gebeurd en zelfs nog op deze moment zelf. 
-                                        Meestal zijn dit geen hele grote aanpassingen maar er moet hier en daar soms nog iets veranderen. 
-                                        In de code vind je ook veel AngularJs en Bootstrap terug. AngularJs is nog niet zo oud maar moest 
-                                        Leen het programma helemaal opnieuw beginnen schrijven zou ze wel eens op zoek gaan naar nieuwere technologieën. <br/><br/>
-                                        Het is niet altijd even gemakkelijk voor haar omdat ze alleen werkt en de tijd en het geld niet heeft om veel 
-                                        cursussen te volgen maar dat kan het weer gemakkelijker maken om aanpassingen te doen omdat je weet waar 
-                                        alles staat en wat  het betekent. .NET zou wel behouden worden. Leen is enorm vertrouwd met .NET en ze is 
-                                        er al veel mee bezig geweest. <br/><br/>Op dit moment zou het programma niet snel even herschreven kunnen worden 
-                                        omdat het daar een beetje te groot en complex voor is hoewel de lagenstructuur nog wel behouden wordt. 
-                                        Ik heb een schema gemaakt over 1 onderdeel van de website. Het prikbord tonen op het scherm.
-                                    </div>
-                                </Grid.Row>
-                            </Grid>
-
                             <br/><br/><Divider /><br/><br/><br/><p className="text-center">Site by <a href="https://github.com/KittyJ-Immalle/GIPSite">Kitty Jacobs</a></p><br/><br/>
                         </Segment>
                     </div>
