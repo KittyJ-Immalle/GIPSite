@@ -118,6 +118,10 @@ mark {
   display: block
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-17 {
   font-size:17px;
 }

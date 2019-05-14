@@ -13,6 +13,9 @@ import CaseStudyOne from "./content/case-study-one.js";
 import CaseStudyTwo from "./content/case-study-two.js";
 import BedrijfseconomischeAnalyse from "./content/bedrijfseconomische-analyse.js";
 import ITTapa from "./content/it-tapa.js";
+import FAQ from "./content/faq.js";
+import Dankmail from "./content/dankmail.js";
+
 import WatIsOneNote from "./content/it-tapa-content/wat-is-onenote.js";
 import WatMetOneNoteDoen from "./content/it-tapa-content/wat-met-onenote-doen.js";
 import WaarOneNoteGebruiken from "./content/it-tapa-content/waar-onenote-gebruiken.js";
@@ -90,6 +93,11 @@ export default class Landing extends React.Component {
         this.setState({backgroundClass: backdrops.SKYLINE})
     }
 
+    selectFAQ() {
+        this.props.history.replace("/faq");
+        this.setState({backgroundClass: backdrops.SKYLINE})
+    }
+
     selectWatIsOneNote() {
         this.props.history.replace("/wat-is-onenote");
         this.setState({backgroundClass: backdrops.SKYLINE})
@@ -150,6 +158,11 @@ export default class Landing extends React.Component {
         this.setState({backgroundClass: backdrops.SKYLINE})
     }
 
+    selectDankmail() {
+        this.props.history.replace("/dankmail");
+        this.setState({backgroundClass: backdrops.SKYLINE})
+    }
+
     render() {
         return (
             <div>
@@ -171,9 +184,12 @@ export default class Landing extends React.Component {
                         <RightSideBar
                             visible={this.state.visible}
                             hideSidebar={this.hideSideBar}
+                            selectFAQ={this.selectFAQ.bind(this)}
+                            selectDankmail={this.selectDankmail.bind(this)}
                         />
                         <Sidebar.Pushable>
                             <Switch>
+                                <Route exact path="/dankmail" render={prop => <Dankmail showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/tips-tricks" render={prop => <TipsTricks showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/links-naar-pagina-distribueren-personen" render={prop => <LinksDistribueren showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/secties-aanmaken" render={prop => <SectiesAanmaken showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
@@ -186,6 +202,7 @@ export default class Landing extends React.Component {
                                 <Route exact path="/waar-kunnen-we-onenote-gebruiken" render={prop => <WaarOneNoteGebruiken showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/wat-kan-je-met-onenote-doen" render={prop => <WatMetOneNoteDoen showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/wat-is-onenote" render={prop => <WatIsOneNote showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
+                                <Route exact path="/faq" render={prop => <FAQ showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/it-tapa" render={prop => <ITTapa showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/bedrijfseconomische-analyse" render={prop => <BedrijfseconomischeAnalyse showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/case-study-two" render={prop => <CaseStudyTwo showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>

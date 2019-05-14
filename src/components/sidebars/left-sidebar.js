@@ -40,6 +40,7 @@ export default class LeftSideBar extends React.Component {
                     <Icon name="euro"/>
                     IT Tapa
                 </Menu.Item>
+                
                 <ProfileModal/>
                 <TechnicalModal/>
             </Sidebar>

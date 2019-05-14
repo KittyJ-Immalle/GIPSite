@@ -22,6 +22,14 @@ export default class RightSideBar extends React.Component {
                     header="Semantic ReactJS"
                     content="Link to the Semantic ReactJS documentation"
                 />
+                <Menu.Item as="a" onClick={this.props.selectFAQ}>
+                    FAQ - IT-TAPA
+                </Menu.Item>
+
+                <Menu.Item as="a" onClick={this.props.selectDankmail}>
+                    Dankmail
+                </Menu.Item>
+
             </Sidebar>
             
         );
