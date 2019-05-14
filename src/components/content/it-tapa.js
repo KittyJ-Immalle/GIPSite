@@ -52,8 +52,11 @@ export default class ITTapa extends React.Component{
                                         <a href="/klasnotitieblok-downloaden">- Klasnotitieblok OneNote downloaden/ hoe het werkt/ wat je ermee kan doen/..<br/></a>
                                         <a href="/secties-aanmaken">- Sectie's en pagina's aanmaken, personen toevoegen/verwijderen<br/></a>
                                         <a href="/links-naar-pagina-distribueren-personen">- Links naar andere pagina's, distribueren naar alle/specifieke personen<br/></a>
-                                        <a href="/tips-tricks">- Tips + Tricks bv. Quick notes (= win. Toets + n)<br/></a>
+                                        <a href="/tips-tricks">- Tips + Tricks bv. Quick notes (= win. Toets + n)<br/></a><br/><br/>
                                     </div>
+                                    <video className="video-center" width="60%" controls>
+                                        <source src="/video/OneNoteTutorial.mp4" type="video/mp4"></source>
+                                    </video>
                             <br/><br/><Divider /><br/><br/><br/><p className="text-center">Site by <a href="https://github.com/KittyJ-Immalle/GIPSite">Kitty Jacobs</a></p><br/><br/>
                         </Segment>
                     </div>
