@@ -36,7 +36,10 @@ const backdrops = {
     "DONUT": "donut",
     "SAILBOATS": "sailboats",
     "SKYLINE": "skyline",
-    "BOATS": "boats"
+    "BOATS": "boats",
+    "PARK": "park",
+    "BUDAPEST": "budapest",
+    "LANDSCAPE": "landscape"
 };
 
 export default class Landing extends React.Component {
@@ -75,17 +78,17 @@ export default class Landing extends React.Component {
 
     selectCaseStudyOne() {
         this.props.history.replace("/case-study-one");
-        this.setState({backgroundClass: backdrops.SKYLINE})
+        this.setState({backgroundClass: backdrops.LANDSCAPE})
     }
 
     selectCaseStudyTwo() {
         this.props.history.replace("/case-study-two");
-        this.setState({backgroundClass: backdrops.SKYLINE})
+        this.setState({backgroundClass: backdrops.PARK})
     }
 
     selectBedrijfseconomischeAnalyse() {
         this.props.history.replace("/bedrijfseconomische-analyse");
-        this.setState({backgroundClass: backdrops.SKYLINE})
+        this.setState({backgroundClass: backdrops.BUDAPEST})
     }
 
     selectITTapa() {

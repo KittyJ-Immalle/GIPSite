@@ -162,6 +162,18 @@ mark {
   background-image: url("/img/boats.jpg") !important;
 }
 
+.park {
+  background-image: url("/img/park.jpg") !important;
+}
+
+.budapest {
+  background-image: url("/img/budapest.jpg") !important;
+}
+
+.landscape {
+  background-image: url("/img/landscape.jpg") !important;
+}
+
 .opacity-0 {
   opacity: 0;
 }
