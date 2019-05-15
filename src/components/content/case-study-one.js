@@ -53,11 +53,14 @@ export default class CaseStudyOne extends React.Component{
                                         alles staat en wat  het betekent. .NET zou wel behouden worden. Leen is enorm vertrouwd met .NET en ze is 
                                         er al veel mee bezig geweest. <br/><br/>Op dit moment zou het programma niet snel even herschreven kunnen worden 
                                         omdat het daar een beetje te groot en complex voor is hoewel de lagenstructuur nog wel behouden wordt. 
-                                        Ik heb een schema gemaakt over 1 onderdeel van de website. Het prikbord tonen op het scherm.
+                                        Ik heb een schema gemaakt over 1 onderdeel van de website. Het prikbord tonen op het scherm.<br/>
+                                        <br/><br/>
+                                        Schema Prikbord:
                                     </div>
                                 </Grid.Row>
                             </Grid>
-
+                            <br/><br/>
+                            <img alt="" className="ui image centered massive" src="img/prikbord-pagaderke.png"/>
                             <br/><br/><Divider /><br/><br/><br/><p className="text-center">Site by <a href="https://github.com/KittyJ-Immalle/GIPSite">Kitty Jacobs</a></p><br/><br/>
                         </Segment>
                     </div>
