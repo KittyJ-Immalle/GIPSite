@@ -61,7 +61,7 @@ export default class Inloggen extends React.Component{
                         </Segment>
                     </div>
                 </Grid.Column>
-                <Grid.Column width={2} classNameName="opacity-0"/>
+                <Grid.Column width={2} className="opacity-0"/>
             </Grid>
             
         )
