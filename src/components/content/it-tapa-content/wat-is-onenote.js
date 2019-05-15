@@ -33,9 +33,9 @@ export default class WatIsOneNote extends React.Component{
                                     <div className="font-advent-pro text-25 line-spacing text-center">
                                         <br/><br/>
                                         <div className="text-35">Wat Is OneNote?</div><br/>
-                                        Programma van Microsoft Office 
-                                        Digitaal notitie blok
-                                        Notities worden automatisch gesynchroniseerd, je hebt ze altijd en overal bij
+                                        Programma van Microsoft Office <br/>
+                                        Digitaal notitieblok<br/>
+                                        Notities worden automatisch gesynchroniseerd, je hebt ze altijd en overal bij<br/>
                                         <br/><br/>
                                     </div>
                                     <img alt="" className="ui image centered large" src="img/wat-is-onenote.png"/>

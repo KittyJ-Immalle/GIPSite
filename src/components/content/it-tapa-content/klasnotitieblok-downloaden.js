@@ -41,7 +41,8 @@ export default class KlasnotitieblokDownloaden extends React.Component{
                                         - Notitieblok voor de klas<br/>
                                         - Alle leerlingen kunnen aan de notities<br/>
                                         - Leerkracht kan notities toevoegen -> automatisch getoond voor alle leerlingen<br/>
-                                        Leerlingen kunnen zelf oefeningen maken en ze op OneNote zetten. -> Leerkracht kan ze nakijken en beoordelen<br/>
+                                        - Leerlingen kunnen zelf oefeningen maken en ze op OneNote zetten. <br/>
+                                        -> Leerkracht kan ze nakijken en beoordelen<br/>
                                         <br/><br/>
                                     </div>
                                     <Grid columns={2}>

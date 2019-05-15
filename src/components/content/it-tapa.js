@@ -37,7 +37,7 @@ export default class ITTapa extends React.Component{
                                         OneNote is een handige notitietool van Microsoft die je zowel lokaal op je eigen PC maar ook op OneDrive kan gebruiken 
                                         en door vele "onderwijs-professionals" (alsook in de bedrijfswereld) wordt gebruikt. Tijdens het eerste deel van de sessie 
                                         wordt u wegwijs gemaakt in de mogelijkheden die OneNote biedt om notities te maken en onder te verdelen. In het tweede deel 
-                                        gebruiken we de klasnotitie-plugin waarmee u als leerkracht(enteam) de notities van uw leerlingen mee vorm kunt geven.
+                                        gebruiken we de klasnotitie-plugin waarmee u als leerkracht(en team) de notities van uw leerlingen mee vorm kunt geven.
                                         <br/><br/><br/>
                                         <a href="/wat-is-onenote">- Wat is OneNote? Werking, synchroniseren, informatie van overal bereikbaar,…<br/></a>
                                         <a href="/wat-kan-je-met-onenote-doen">- Wat kan je met OneNote doen? Voordelen van OneNote? Waarom zou je OneNote gebruiken? Delen met anderen?<br/></a>
