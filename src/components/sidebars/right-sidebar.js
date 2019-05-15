@@ -23,7 +23,7 @@ export default class RightSideBar extends React.Component {
                     content="Link to the Semantic ReactJS documentation"
                 />
 
-                <Menu.Item as="a">
+                <Menu.Item>
                     
                 </Menu.Item>
 
