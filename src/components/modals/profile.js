@@ -27,7 +27,7 @@ export default class Profile extends React.Component {
         return (
             <Modal
             open={this.state.open}
-            size="tiny"
+            size="small"
             onClose={this.close.bind(this)}
             trigger={
                 <Menu.Item onClick={this.open.bind(this)}>
