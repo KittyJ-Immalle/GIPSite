@@ -1,5 +1,5 @@
 import React from "react";
-import {Header, Segment, Grid, Divider, Label} from "semantic-ui-react";
+import {Header, Segment, Grid, Divider, Label, Container} from "semantic-ui-react";
 
 export default class ITTapa extends React.Component{
     constructor(props) {
@@ -53,10 +53,15 @@ export default class ITTapa extends React.Component{
                                         <a href="/secties-aanmaken">- Sectie's en pagina's aanmaken, personen toevoegen/verwijderen<br/></a>
                                         <a href="/links-naar-pagina-distribueren-personen">- Links naar andere pagina's, distribueren naar alle/specifieke personen<br/></a>
                                         <a href="/tips-tricks">- Tips + Tricks bv. Quick notes (= win. Toets + n)<br/></a><br/><br/>
+                                        <br/><br/><br/>
                                     </div>
-                                    <video className="video-center" width="60%" controls>
-                                        <source src="/video/OneNoteTutorial.mp4" type="video/mp4"></source>
-                                    </video>
+                                    <Container class="video-center">
+                                    <div class="youtube-embed">
+                                    <iframe frameBorder="0" allowFullScreen title="aa" height="315" width="420" src="https://youtube.com/embed/ERBYLiQB4H8">
+                                    </iframe>
+                                    </div>
+                                    </Container>
+                                    
                             <br/><br/><Divider /><br/><br/><br/><p className="text-center">Site by <a href="https://github.com/KittyJ-Immalle/GIPSite">Kitty Jacobs</a></p><br/><br/>
                         </Segment>
                     </div>

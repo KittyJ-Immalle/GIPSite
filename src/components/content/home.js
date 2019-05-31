@@ -42,9 +42,9 @@ export default class Home extends React.Component{
 
                             <Grid columns={2} divided>
                                 <Grid.Column>
-                                    <video width="100%" controls>
-                                        <source src="/video/gip-video.mp4" type="video/mp4"></source>
-                                    </video>
+                                    <iframe frameBorder="0" allowFullScreen title="aa" height="100%" width="100%" src="https://youtube.com/embed/HlHcNisPs6s">
+                                    </iframe>
+                                    
                                 </Grid.Column>
                                         
                                 <Grid.Column className="font-advent-pro text-25 line-spacing text-center">
@@ -56,6 +56,7 @@ export default class Home extends React.Component{
                                         De bedrijfseconomische analyse is een analyse van het bedrijf LBit zelf. 
                                         <br></br><br></br>Verder kun je onder de andere tabs informatie vinden over mij en de technische elementen waaruit de website is opgebouwd.
                                         Ik hoop dat je veel leerplezier hebt!
+                                        <br></br><br></br><br></br><br/>
                                 </Grid.Column>
                             </Grid>
                             <br/><br/><Divider /><br/><br/><br/><p className="text-center">Site by <a href="https://github.com/KittyJ-Immalle/GIPSite">Kitty Jacobs</a></p><br/><br/>
