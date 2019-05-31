@@ -26,9 +26,9 @@ export default class Dankmail extends React.Component{
                     <div id="body-container" onMouseEnter={this.showBody.bind(this)} onMouseLeave={this.hideBody.bind(this)}>
                     <Segment>
                             <Label as="a" color="blue" ribbon>
-                                IT Tapa
+                                Mail
                             </Label>
-                            <Header as="h2"color="grey">Verschil OneNote en OneNote 2016</Header>
+                            <Header as="h2"color="grey">Dankmail</Header>
                             <Divider/>
                                     <div className="font-advent-pro text-25 line-spacing side-padding">
                                         <br/><br/>

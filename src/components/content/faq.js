@@ -26,7 +26,7 @@ export default class FAQ extends React.Component{
                     <div id="body-container" onMouseEnter={this.showBody.bind(this)} onMouseLeave={this.hideBody.bind(this)}>
                     <Segment>
                             <Label as="a" color="blue" ribbon>
-                                IT Tapa
+                                FAQ
                             </Label>
                             <Header as="h2"color="grey">Foire Aux Questions</Header>
                             <Divider/>
