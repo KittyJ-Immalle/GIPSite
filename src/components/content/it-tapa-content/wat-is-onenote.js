@@ -30,7 +30,7 @@ export default class WatIsOneNote extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Wat is OneNote? Werking, synchroniseren, informatie van overal bereikbaar,…</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-25 line-spacing text-center">
+                                    <div className="font-advent-pro text-23 line-spacing text-center">
                                         <br/><br/>
                                         <div className="text-35">Wat Is OneNote?</div><br/>
                                         Programma van Microsoft Office <br/>

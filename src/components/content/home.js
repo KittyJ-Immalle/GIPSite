@@ -31,7 +31,7 @@ export default class Home extends React.Component{
                             <Header as="h2" color="grey">Welkom!</Header>
                             <Divider/>
                             <img alt="" className="ui medium image centered" src="img/logo.png"/>
-                            <Container className="font-advent-pro text-25 line-spacing text-center">
+                            <Container className="font-advent-pro text-23 line-spacing text-center">
                                 <br/><br/>Hallo! Ik ben Kitty Jacobs en ik ben 17 jaar oud. 
                                 Ik woon in Sint-Antonius en ik ga naar school op het Immaculata Instituut. 
                                 Ik heb al een aantal jaren een passie voor webdevelopment en hier zie ik mij in de toekomst nog mee bezig.
@@ -47,7 +47,7 @@ export default class Home extends React.Component{
                                     
                                 </Grid.Column>
                                         
-                                <Grid.Column className="font-advent-pro text-25 line-spacing text-center">
+                                <Grid.Column className="font-advent-pro text-23 line-spacing text-center">
                                         Daarom heb ik met veel enthousiasme deze website gemaakt.
                                         Op deze website vind je alle informatie terug over mijn stage bij LBit in Beerse. 
                                         <br></br><br></br>Onder dagverslagen vind je een overzicht van wat ik elke dag op mijn stage heb gedaan. 

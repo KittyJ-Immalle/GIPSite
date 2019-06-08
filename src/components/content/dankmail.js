@@ -30,7 +30,7 @@ export default class Dankmail extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Dankmail</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-25 line-spacing side-padding">
+                                    <div className="font-advent-pro text-23 line-spacing side-padding">
                                         <br/><br/>
                                         <div className="text-right">2018-10-01<br/></div>
                                         Kitty Jacobs<br/>

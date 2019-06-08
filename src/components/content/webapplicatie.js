@@ -31,7 +31,7 @@ export default class Webapplicatie extends React.Component{
                             <Header as="h2"color="grey">Analyseren, ontwerpen en implementeren van een (web)applicatie</Header>
                             <Divider/><br/><br/>
                                 <img alt="" className="ui image centered massive" src="img/diagrammas.png"/>
-                                    <div className="font-advent-pro text-25 line-spacing text-center">
+                                    <div className="font-advent-pro text-23 line-spacing text-center">
                                         <br/><br/>
                                         <div className="text-35">Webapplicatie</div><br/><br/>
                                         GitHub: <a href="https://github.com/KittyJ-Immalle/GIPWebApp">https://github.com/KittyJ-Immalle/GIPWebApp</a>

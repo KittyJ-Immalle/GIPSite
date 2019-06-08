@@ -30,7 +30,7 @@ export default class WatMetOneNoteDoen extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Wat kan je met OneNote doen? Voordelen van OneNote? Waarom zou je OneNote gebruiken? Delen met anderen?</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-25 line-spacing text-center">
+                                    <div className="font-advent-pro text-23 line-spacing text-center">
                                         <br/><br/>
                                         <div className="text-35">Wat kan je met OneNote doen?</div><br/>
                                         Wat kan je doen?<br/>

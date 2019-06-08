@@ -78,13 +78,6 @@ mark {
   margin-left: -640px !important;
 }
 
-.text-analyse {
-  text-align: center;
-  color: rgb(161, 125, 5);
-  font-family: 'Advent Pro';
-  font-size: 25px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -119,15 +112,16 @@ mark {
 }
 
 .youtube-embed {
-  position: relative;
-  padding-bottom: 56%;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 640px !important;
+  width: 1080px !important;
 }
 
 .youtube-embed iframe {
-  width: 60%;
-  position: absolute;
-  height: 60%;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
   margin: auto;
 }
@@ -148,8 +142,8 @@ mark {
   font-size: 20px;
 }
 
-.text-25 {
-  font-size: 25px;
+.text-23 {
+  font-size: 23px;
 }
 
 .text-35 {

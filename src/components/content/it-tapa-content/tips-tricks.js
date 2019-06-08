@@ -30,7 +30,7 @@ export default class TipsTricks extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Tips + Tricks</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-25 line-spacing text-center side-padding">
+                                    <div className="font-advent-pro text-23 line-spacing text-center side-padding">
                                         <br/><br/>
                                         Berekeningen worden vanzelf uitgerekend:
                                         100 + 100 = 200 

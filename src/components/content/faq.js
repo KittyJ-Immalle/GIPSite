@@ -30,7 +30,7 @@ export default class FAQ extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Foire Aux Questions</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-25 line-spacing text-center side-padding">
+                                    <div className="font-advent-pro text-23 line-spacing text-center side-padding">
                                         <br/><br/>
                                         <div className="text-35">Foire Aux Questions - IT-TAPA</div><br/>
                                         Bienvenue! J’espère que vous vous amusez à lire mon site web et peut-être vous avez quelques questions de notre IT-TAPA auxquelles je peux répondre ici.<br/>

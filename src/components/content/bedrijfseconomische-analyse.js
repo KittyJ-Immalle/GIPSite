@@ -30,7 +30,7 @@ export default class BedrijfseconomischeAnalyse extends React.Component{
                         </Label>
                         <Header as="h2"color="grey">Bedrijfseconomische Analyse</Header>
                         <Divider/>
-                        <div className="font-advent-pro text-25 line-spacing text-center side-padding">
+                        <div className="font-advent-pro text-23 line-spacing text-center side-padding">
                             <br/><br/>
                             <img alt="" className="ui medium image centered" src="img/logo.png"/>
                             <br/>

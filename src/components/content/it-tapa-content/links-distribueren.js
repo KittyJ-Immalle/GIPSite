@@ -30,7 +30,7 @@ export default class LinksDistribueren extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Links naar andere pagina's, distribueren naar alle/specifieke personen</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-25 line-spacing text-center">
+                                    <div className="font-advent-pro text-23 line-spacing text-center">
                                         <br/><br/>
                                         <div className="text-35">Link maken naar andere notitie:</div><br/>
                                         Selecteer waar je een link wil<br/>

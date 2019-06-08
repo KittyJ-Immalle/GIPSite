@@ -31,7 +31,7 @@ export default class CaseStudyTwo extends React.Component{
                             <Header as="h2"color="grey">Case Study 2</Header>
                             <Divider/>
                                 <img alt="" className="ui image smaller-image-2 centered" src="img/firebase-logo.png"/>
-                                    <div className="font-advent-pro text-25 line-spacing text-center side-padding">
+                                    <div className="font-advent-pro text-23 line-spacing text-center side-padding">
                                         <div className="text-35">Case study</div><br/>
                                         Firebase is een platform voor mobiele en webapplicaties. Het biedt enorm veel services. 
                                         Enkele voorbeelden zijn: user authenticatie, het hosten van een web applicatie, cloud storage, 
@@ -45,7 +45,7 @@ export default class CaseStudyTwo extends React.Component{
                                 <Grid.Row>
                                     <Grid.Column>
                                         <img alt="" className="ui image centered" src="img/go-to-console.png"/>
-                                        <div className="font-advent-pro text-25 line-spacing text-center side-padding">
+                                        <div className="font-advent-pro text-23 line-spacing text-center side-padding">
                                             <br/><br/>
                                             Hier kunnen we een project toevoegen.
                                             <br/><br/><br/><br/>
@@ -57,7 +57,7 @@ export default class CaseStudyTwo extends React.Component{
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
-                                    <div className="text-25 line-spacing font-advent-pro text-center side-padding">
+                                    <div className="text-23 line-spacing font-advent-pro text-center side-padding">
                                         <br/>
                                         Voordat we kunnen beginnen moeten we er eerst voor zorgen dat onze index.html in een directory 
                                         staat die public heet. Het systeem zal zoeken naar “public/index.html”, dit is een standaard pad 
@@ -86,7 +86,7 @@ export default class CaseStudyTwo extends React.Component{
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column>
-                                        <div className="text-25 line-spacing font-advent-pro text-center side-padding">
+                                        <div className="text-23 line-spacing font-advent-pro text-center side-padding">
                                             We kunnen in de plaats daarvan ook het id aflezen op de website van Firebase. In ons project kunnen we op het 
                                             tandwieltje klikken rechts van Project Overview. Daarin vinden we “projectinstellingen”.
                                         </div>
@@ -96,7 +96,7 @@ export default class CaseStudyTwo extends React.Component{
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
-                                    <div className="text-25 line-spacing font-advent-pro text-center side-padding">
+                                    <div className="text-23 line-spacing font-advent-pro text-center side-padding">
                                         <br/><br/>
                                         Het project-id hebben we nodig om ons project te initialiseren met “<mark>firebase -P [projectID] init</mark>”. Het genereert 
                                         een paar files met informatie over jouw project die Firebase nodig zal hebben.

@@ -1,5 +1,5 @@
 import React from "react";
-import {Header, Segment, Grid, Divider, Label, Container} from "semantic-ui-react";
+import {Header, Segment, Grid, Divider, Label} from "semantic-ui-react";
 
 export default class ITTapa extends React.Component{
     constructor(props) {
@@ -30,7 +30,7 @@ export default class ITTapa extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">IT Tapa</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-25 line-spacing text-center">
+                                    <div className="font-advent-pro text-23 line-spacing text-center side-padding">
                                         <br/><br/>
                                         <div className="text-35">Overzicht IT-tapa</div><br/>
                                         OneNote + klasnotitieblokken<br/>
@@ -55,12 +55,10 @@ export default class ITTapa extends React.Component{
                                         <a href="/tips-tricks">- Tips + Tricks bv. Quick notes (= win. Toets + n)<br/></a><br/><br/>
                                         <br/><br/><br/>
                                     </div>
-                                    <Container class="video-center">
                                     <div class="youtube-embed">
-                                    <iframe frameBorder="0" allowFullScreen title="aa" height="315" width="420" src="https://youtube.com/embed/ERBYLiQB4H8">
-                                    </iframe>
+                                        <iframe frameBorder="0" allowFullScreen title="aa" height="315" width="420" src="https://youtube.com/embed/ERBYLiQB4H8">
+                                        </iframe>
                                     </div>
-                                    </Container>
                                     
                             <br/><br/><Divider /><br/><br/><br/><p className="text-center">Site by <a href="https://github.com/KittyJ-Immalle/GIPSite">Kitty Jacobs</a></p><br/><br/>
                         </Segment>

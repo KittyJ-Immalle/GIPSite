@@ -30,7 +30,7 @@ export default class WaarOneNoteGebruiken extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Waar kunnen we OneNote gebruiken?</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-25 line-spacing text-center">
+                                    <div className="font-advent-pro text-23 line-spacing text-center">
                                         <br/><br/>
                                         <div className="text-35">Waar?</div><br/>
                                         - PC<br/>

@@ -30,7 +30,7 @@ export default class Dagsverslagen extends React.Component {
                             <Header as="h2"color="grey">Stageverslagen </Header>
                             <Divider />
 
-                            <div className="font-advent-pro text-25 line-spacing text-center">
+                            <div className="font-advent-pro text-23 line-spacing text-center">
                                 Hier vindt u mijn dagverslagen. Het is een overzicht over wat ik elke dag gedaan heb op mijn stage.
                             </div>
                             <br></br>
@@ -101,7 +101,7 @@ export default class Dagsverslagen extends React.Component {
                         </Segment>
                     </div>
                 </Grid.Column>
-                <Grid.Column width={2} className="opacity-0" onMouseEnter={this.props.showSideBar} onMouseLeave={this.props.hideSideBar}/>
+                <Grid.Column width={2} className="opacity-0"/>
             </Grid>
         );
     }
