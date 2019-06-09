@@ -2,6 +2,14 @@ mark {
   background-color: lightgrey;
 }
 
+img {
+  border: 1px solid #021a40
+}
+
+.no-border {
+  border: 0px !important;
+}
+
 .App {
   text-align: center;
 }
@@ -82,8 +90,8 @@ mark {
   text-align: center;
 }
 
-.font-advent-pro {
-  font-family: 'Advent Pro';
+.font-arial {
+  font-family: Arial;
 }
 
 .smaller-image {
@@ -102,7 +110,7 @@ mark {
 }
 
 .line-spacing {
-  line-height: 100%;
+  line-height: 130%;
 }
 
 .video-center {
@@ -136,14 +144,6 @@ mark {
 
 .text-17 {
   font-size:17px;
-}
-
-.text-20 {
-  font-size: 20px;
-}
-
-.text-23 {
-  font-size: 23px;
 }
 
 .text-35 {

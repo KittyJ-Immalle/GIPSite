@@ -31,7 +31,7 @@ export default class Analyse extends React.Component{
                             <Header as="h2"color="grey">Analyse v.d. huisstijl</Header>
                             <Divider />
 
-                            <img alt="" className="ui medium image centered" src="img/logo.png"/>
+                            <img alt="" className="ui medium image centered no-border" src="img/logo.png"/>
                             <br/><br/><br/>
                             <Grid columns={2} divided>
                                 <Grid.Row>
@@ -40,7 +40,7 @@ export default class Analyse extends React.Component{
                                     </Grid.Column>
                                     <Grid.Column>
                                         
-                                        <div className="font-advent-pro text-23 line-spacing text-center">
+                                        <div className="font-arial text-17 line-spacing text-center">
                                             <br/><br/>LBit heeft een hele aparte huisstijl tegenover andere bedrijven. Het eerste opvallende onderdeel is de kleurcombinatie 
                                             en het lettertype dat gebruikt wordt. Het bedrijf maakt gebruik van de kleuren roze en goud in de naam van het bedrijf. 
                                             <br/><br/>Alle tekst wordt, indien mogelijk, in het lettertype Advent Pro geschreven. De roze kleur is terug te vinden in het logo 
@@ -51,7 +51,7 @@ export default class Analyse extends React.Component{
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
-                                        <div className="font-advent-pro text-23 line-spacing text-center side-padding">
+                                        <div className="font-arial text-17 line-spacing text-center side-padding">
                                         <br/>Je kan hierin goed het lettertype zien in LBit.be. 
                                         Op de website staat de meeste tekst gecentreerd zodat het gemakkelijker wordt om meer stukken tekst op het scherm te tonen. 
                                         Dit is hier een voorbeeld van.
@@ -66,7 +66,7 @@ export default class Analyse extends React.Component{
                                         <img alt="" className="ui image centered" src="img/lbit-text.png"/>
                                     </Grid.Column>
                                     <Grid.Column>
-                                        <div className="font-advent-pro text-23 line-spacing text-center">
+                                        <div className="font-arial text-17 line-spacing text-center">
                                             <br/>De zin “Jouw project, mijn zaak!” Vinden we ook vaak terug. 
                                             Zowel op de website van LBit als op bv. <a href="http://www.webdesign-vinden.be/webdesign/antwerpen/beerse/lbit">http://www.webdesign-vinden.be/webdesign/antwerpen/beerse/lbit</a>.
                                             <br/><br/>
@@ -74,7 +74,7 @@ export default class Analyse extends React.Component{
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
-                                    <div className="font-advent-pro text-23 line-spacing text-center side-padding">
+                                    <div className="font-arial text-17 line-spacing text-center side-padding">
                                         <br/>Op de website van LBit staan enkele foto’s die veel met elkaar gemeen hebben. Neem bijvoorbeeld deze foto.
                                         <br/>
                                     </div>
@@ -83,7 +83,7 @@ export default class Analyse extends React.Component{
                                         <img alt="" className="ui image centered smaller-image" src="img/lbit-tab.png"/>
                                 </Grid.Row>
                                 <Grid.Row>
-                                    <div className="font-advent-pro text-23 line-spacing text-center side-padding">
+                                    <div className="font-arial text-17 line-spacing text-center side-padding">
                                         <br/>De foto is gefilterd in zwart-wit met op de voorgrond de ondernemer, Leen. Door de lach en de goede belichting geeft dit een aangename sfeer. In de foto kan je een acties terugvinden bv. de bewegende auto, de wind in het haar. Je krijgt hierdoor minder de indruk dat het geposeerd was maar meer de indruk dat dit het dagelijks leven is van Leen.
                                         LBit heeft een heel unieke en mooie huisstijl. Het valt goed op en je kan het overal herkennen.
                                     </div>

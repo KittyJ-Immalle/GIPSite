@@ -30,23 +30,23 @@ export default class LinksDistribueren extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Links naar andere pagina's, distribueren naar alle/specifieke personen</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-23 line-spacing text-center">
+                                    <div className="font-arial text-17 line-spacing text-center">
                                         <br/><br/>
-                                        <div className="text-35">Link maken naar andere notitie:</div><br/>
+                                        <div className="text-35">Link maken naar andere notitie:</div><br/><br/>
                                         Selecteer waar je een link wil<br/>
-                                        Klik met rechtermuisknop of via Crtl+K<br/><br/>
-                                        <img alt="" className="ui image centered medium" src="img/links-distribueren-1.png"/>
-                                        Kies de notitie die je wil linken<br/><br/>
-                                        <img alt="" className="ui image centered big" src="img/links-distribueren-2.png"/><br/>
-                                        Resultaat<br/><br/>
+                                        Klik met rechtermuisknop of via Crtl+K<br/><br/><br/>
+                                        <img alt="" className="ui image centered medium" src="img/links-distribueren-1.png"/><br/><br/>
+                                        Kies de notitie die je wil linken<br/><br/><br/>
+                                        <img alt="" className="ui image centered big" src="img/links-distribueren-2.png"/><br/><br/>
+                                        Resultaat<br/><br/><br/>
                                         <img alt="" className="ui image centered large" src="img/links-distribueren-3.png"/><br/><br/>
-                                        <div className="text-35">Iets belangrijk delen met elke leerling:</div><br/>
+                                        <div className="text-35">Iets belangrijk delen met elke leerling:</div><br/><br/><br/>
                                         Ga naar de notitie die je wil delen<br/>
                                         Selecteer de tekst<br/>
                                         rechtermuisknop<br/>
-                                        Kies voor 'inhoud distribueren' en waar je het wil delen<br/>
+                                        Kies voor 'inhoud distribueren' en waar je het wil delen<br/><br/><br/>
                                         <img alt="" className="ui image centered large" src="img/links-distribueren-4.png"/><br/><br/>
-                                        Resultaat<br/><br/>
+                                        Resultaat<br/><br/><br/>
                                         <img alt="" className="ui image centered large" src="img/links-distribueren-5.png"/>
                                         <br/><br/>
                                     </div>

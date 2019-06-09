@@ -5,7 +5,7 @@ export default class Banner extends React.Component {
     render() {
         return (
             <div id="banner">
-            <Image src="/img/logo.png" size="small" id="lbit"/>
+            <Image className="no-border" src="/img/logo.png" size="small" id="lbit"/>
             </div>
         )
     };

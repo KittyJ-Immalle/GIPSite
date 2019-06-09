@@ -30,7 +30,7 @@ export default class Inloggen extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Inloggen</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-23 line-spacing text-center">
+                                    <div className="font-arial text-17 line-spacing text-center">
                                         <br/><br/>
                                         <div className="text-35">Inloggen</div><br/>
                                         Inloggen met Microsoft account<br/>

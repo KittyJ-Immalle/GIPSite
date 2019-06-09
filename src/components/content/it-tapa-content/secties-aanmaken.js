@@ -30,7 +30,7 @@ export default class SectiesAanmaken extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Secties en pagina's aanmaken, personen toevoegen/verwijderen</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-23 line-spacing text-center">
+                                    <div className="font-arial text-17 line-spacing text-center">
                                         <br/><br/>
                                         Sectie = verzameling van pagina's waar je de inhoud in zet.<br/>
                                         Sectiegroep = gebundelde secties over hetzelfde onderwerp<br/>

@@ -30,21 +30,21 @@ export default class FAQ extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Foire Aux Questions</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-23 line-spacing text-center side-padding">
+                                    <div className="font-arial text-17 line-spacing text-center side-padding">
                                         <br/><br/>
-                                        <div className="text-35">Foire Aux Questions - IT-TAPA</div><br/>
+                                        <div className="text-35">Foire Aux Questions - IT-TAPA</div><br/><br/><br/>
                                         Bienvenue! J’espère que vous vous amusez à lire mon site web et peut-être vous avez quelques questions de notre IT-TAPA auxquelles je peux répondre ici.<br/>
-                                        <br/>
-                                        Qu’est-ce que vous avez fait pendant votre IT-TAPA?<br/>
+                                        <br/><br/>
+                                        <b>Qu’est-ce que vous avez fait pendant votre IT-TAPA?</b><br/>
                                         Nous avons expliqué comment on peut utiliser OneNote. Comment devez-vous faire des nouveaux bloc-notes? Comment peut-on l’utiliser dans la classe?... <br/>
                                         <br/>
-                                            2. Vous avez fait le IT-TAPA pourquoi?<br/>
+                                        <b>2. Vous avez fait le IT-TAPA pourquoi?</b><br/>
                                         Nous voulons aider des profs avec l'informatique. Nous savons ce n’est pas toujours très facile car parfois ils n’ont pas eu les cours nécessaires.<br/>
                                         <br/>
-                                            3. Si j’ai raté votre IT-TAPA, il y a d'autres façons pour apprendre à utiliser OneNote?<br/>
+                                        <b>3. Si j’ai raté votre IT-TAPA, il y a d'autres façons pour apprendre à utiliser OneNote?</b><br/>
                                         Oui, nous avons utilisé un bloc-note avec toute l’information que nous avons expliqués pendant le IT-TAPA. Si vous voulez l’utiliser, vous pouvez m’envoyer un e-mail à kitty.jacobs@immalle.be. Il y a aussi beaucoup de tutoriels que vous pouvez trouver en ligne.<br/>
                                         <br/>
-                                            4. Avez-vous d’autres projets?<br/>
+                                        <b>4. Avez-vous d’autres projets?</b><br/>
                                         Oui, je mets tous mes projets sur GitHub. Vous me pouvez trouver ici: <a href="https://github.com/KittyJ-Immalle">https://github.com/KittyJ-Immalle</a>.
                                     </div>
                             <br/><br/><Divider /><br/><br/><br/><p className="text-center">Site by <a href="https://github.com/KittyJ-Immalle/GIPSite">Kitty Jacobs</a></p><br/><br/>

@@ -30,7 +30,7 @@ export default class KlasnotitieblokDownloaden extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Klasnotitieblok OneNote downloaden/ hoe het werkt/ wat je ermee kan doen/..</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-23 line-spacing text-center">
+                                    <div className="font-arial text-17 line-spacing text-center">
                                         <br/><br/>
                                         <div className="text-35">Meld je aan op OneNote Class Notebook:</div><br/>
                                         Zoek op google:"klasnotitieblok OneNote"<br/>

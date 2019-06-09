@@ -30,7 +30,7 @@ export default class TipsTricks extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Tips + Tricks</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-23 line-spacing text-center side-padding">
+                                    <div className="font-arial text-17 line-spacing text-center side-padding">
                                         <br/><br/>
                                         Berekeningen worden vanzelf uitgerekend:
                                         100 + 100 = 200 
@@ -39,8 +39,8 @@ export default class TipsTricks extends React.Component{
 
                                         Snelle notities maken: windowstoets + n
 
-                                        Tekst kopiëren van afbeelding<br/><br/>
-                                        <img alt="" className="ui image centered medium" src="img/tips-tricks.png"/>
+                                        Tekst kopiëren van afbeelding<br/><br/><br/>
+                                        <img alt="" className="ui image centered medium" src="img/tips-tricks.png"/><br/><br/>
                                         Napoleons enige wettige zoon, Napoleon <br/>
                                         II, geschilderd 
                                         door Moritz Michael Daffinger <br/>

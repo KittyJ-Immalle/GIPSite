@@ -30,7 +30,7 @@ export default class CaseStudyOne extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Case Study 1</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-23 line-spacing text-center">
+                                    <div className="font-arial text-17 line-spacing text-center">
                                         <br/><br/>
                                         <div className="text-35">Case study</div><br/>
                                         Website ‘t Pagaderke<br/>
@@ -42,7 +42,7 @@ export default class CaseStudyOne extends React.Component{
                                     <img alt="" className="ui image smaller-image centered" src="img/pagaderke.png"/>
                                 </Grid.Row>
                                 <Grid.Row>
-                                    <div className="text-23 line-spacing font-advent-pro text-center side-padding">
+                                    <div className="text-17 line-spacing font-arial text-center side-padding">
                                         Omdat de website al meer dan 4 jaar oud is is de code ervan enorm veel en lang. 
                                         Er zijn in de loop van de jaren veel aanpassingen gebeurd en zelfs nog op deze moment zelf. 
                                         Meestal zijn dit geen hele grote aanpassingen maar er moet hier en daar soms nog iets veranderen. 

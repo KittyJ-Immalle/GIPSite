@@ -30,8 +30,8 @@ export default class Home extends React.Component{
                             </Label>
                             <Header as="h2" color="grey">Welkom!</Header>
                             <Divider/>
-                            <img alt="" className="ui medium image centered" src="img/logo.png"/>
-                            <Container className="font-advent-pro text-23 line-spacing text-center">
+                            <img alt="" className="ui medium image centered no-border" src="img/logo.png"/>
+                            <Container className="font-arial text-17 line-spacing text-center">
                                 <br/><br/>Hallo! Ik ben Kitty Jacobs en ik ben 17 jaar oud. 
                                 Ik woon in Sint-Antonius en ik ga naar school op het Immaculata Instituut. 
                                 Ik heb al een aantal jaren een passie voor webdevelopment en hier zie ik mij in de toekomst nog mee bezig.
@@ -47,7 +47,7 @@ export default class Home extends React.Component{
                                     
                                 </Grid.Column>
                                         
-                                <Grid.Column className="font-advent-pro text-23 line-spacing text-center">
+                                <Grid.Column className="font-arial text-17 line-spacing text-center">
                                         Daarom heb ik met veel enthousiasme deze website gemaakt.
                                         Op deze website vind je alle informatie terug over mijn stage bij LBit in Beerse. 
                                         <br></br><br></br>Onder dagverslagen vind je een overzicht van wat ik elke dag op mijn stage heb gedaan. 
@@ -56,7 +56,7 @@ export default class Home extends React.Component{
                                         De bedrijfseconomische analyse is een analyse van het bedrijf LBit zelf. 
                                         <br></br><br></br>Verder kun je onder de andere tabs informatie vinden over mij en de technische elementen waaruit de website is opgebouwd.
                                         Ik hoop dat je veel leerplezier hebt!
-                                        <br></br><br></br><br></br><br/>
+                                        <br></br><br></br><br></br><br/><br/><br/><br/><br/><br/>
                                 </Grid.Column>
                             </Grid>
                             <br/><br/><Divider /><br/><br/><br/><p className="text-center">Site by <a href="https://github.com/KittyJ-Immalle/GIPSite">Kitty Jacobs</a></p><br/><br/>

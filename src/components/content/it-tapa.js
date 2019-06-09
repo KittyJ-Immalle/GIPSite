@@ -30,7 +30,7 @@ export default class ITTapa extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">IT Tapa</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-23 line-spacing text-center side-padding">
+                                    <div className="font-arial text-17 line-spacing text-center side-padding">
                                         <br/><br/>
                                         <div className="text-35">Overzicht IT-tapa</div><br/>
                                         OneNote + klasnotitieblokken<br/>

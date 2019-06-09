@@ -5,7 +5,7 @@ export default class SemanticJSCard extends React.Component {
     render() {
         return (
             <Card>
-                <Image style={{height: "336px"}} src="https://user-images.githubusercontent.com/4727/38117885-69734bbc-336c-11e8-8653-86b0fa071896.png"/>
+                <Image style={{height: "336px"}} className="no-border" src="https://user-images.githubusercontent.com/4727/38117885-69734bbc-336c-11e8-8653-86b0fa071896.png"/>
                 <Card.Content>
                     <Card.Header>Semantic UI React</Card.Header>
                     <Card.Meta><span>User Interface Framework</span></Card.Meta>

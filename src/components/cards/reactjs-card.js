@@ -5,7 +5,7 @@ export default class ReactJSCard extends React.Component {
     render() {
         return (
             <Card>
-                <Image src="https://sg.fiverrcdn.com/photos/82424391/original/34b89799b55372bac62d2482da37bb6d7bb1bc2e.png?1488226446"/>
+                <Image className="no-border" src="https://sg.fiverrcdn.com/photos/82424391/original/34b89799b55372bac62d2482da37bb6d7bb1bc2e.png?1488226446"/>
                 <Card.Content>
                     <Card.Header>React JS</Card.Header>
                     <Card.Meta><span>JavaScript UI Library</span></Card.Meta>

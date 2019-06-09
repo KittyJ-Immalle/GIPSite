@@ -30,7 +30,7 @@ export default class VerschilOneNoteEnOneNote2016 extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Verschil OneNote en OneNote 2016</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-23 line-spacing text-center">
+                                    <div className="font-arial text-17 line-spacing text-center">
                                         <br/><br/>
                                         <div className="text-35">OneNote</div><br/>
                                         - een nieuwere versie voor windows 10<br/>

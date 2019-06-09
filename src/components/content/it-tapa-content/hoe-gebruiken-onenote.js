@@ -30,7 +30,7 @@ export default class HoeGebruikenOneNote extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Hoe gebruik je OneNote? Uitleg notitieblok aanmaken.</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-23 line-spacing text-center side-padding">
+                                    <div className="font-arial text-17 line-spacing text-center side-padding">
                                         <br/><br/>
                                         <div className="text-35">Hoe gebruik je OneNote?</div><br/>
                                         Standaard heb je al een notitieblok als je je voor het eerst aanmeld in OneNote met al één notitie. Je kan hier schrijven 

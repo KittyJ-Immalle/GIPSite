@@ -5,7 +5,7 @@ export default class NPMCard extends React.Component {
     render() {
         return (
             <Card>
-                <Image style={{height: "336px"}} src="https://achievement-images.teamtreehouse.com/badges_JavaScript_npmbasics_Stage1.png"/>
+                <Image style={{height: "336px"}} className="no-border" src="https://achievement-images.teamtreehouse.com/badges_JavaScript_npmbasics_Stage1.png"/>
                 <Card.Content>
                     <Card.Header>Node Package Manager</Card.Header>
                     <Card.Meta><span>JavaScript Package Manager</span></Card.Meta>

@@ -30,7 +30,7 @@ export default class PersoonlijkeNotitieblok extends React.Component{
                             </Label>
                             <Header as="h2"color="grey">Persoonlijk notitieblok + waar het staat in OneDrive</Header>
                             <Divider/>
-                                    <div className="font-advent-pro text-23 line-spacing text-center">
+                                    <div className="font-arial text-17 line-spacing text-center">
                                         <br/><br/>
                                         <div className="text-35">Persoonlijk notitieblok</div><br/>
                                         - Standaard voor iedereen, delen kan met andere mensen<br/>
