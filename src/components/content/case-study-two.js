@@ -76,7 +76,7 @@ export default class CaseStudyTwo extends React.Component{
                                         Om verbinding te kunnen maken ons project op firebase dat we in het begin hebben gemaakt, moeten we ons 
                                         eerst aanmelden op de CLI. Dit kunnen we doen door “<mark>firebase login</mark>” te gebruiken.
                                         <br/><br/>
-                                        We moeten vervolgens eerst “<mark>npm run-script build</mark>” typen. Hiermee verkleinen we ons project 
+                                        Ik heb een script die ik zal uitvoeren. Daarom typ ik vervolgens eerst “<mark>npm run-script build</mark>” typen. Hiermee verkleinen we ons project 
                                         door alle tabs, indentatie en lege regels te verwijderen.
                                         <br/><br/>
                                         Omdat we het id nodig hebben van ons project, kunnen we met “<mark>firebase list</mark>” krijgen we een lijst te 
@@ -102,8 +102,8 @@ export default class CaseStudyTwo extends React.Component{
                                         een paar files met informatie over jouw project die Firebase nodig zal hebben.
                                         <br/><br/>
                                         Er zullen een paar vraagjes gesteld worden. Bij de vraag “Which Firebase CLI features do you want to setup for 
-                                        this folder?” selecteer je “Hosting” met de spatiebalk en druk je vervolgens op enter. De publieke directory laten 
-                                        we staan op public. Bij de vraag “Configure as a single-page app (rewrite all urls to /index.html)?” antwoorden we nee.
+                                        this folder?” selecteer je “Hosting” met de spatiebalk en druk je vervolgens op enter. De publieke directory verander ik naar build. 
+                                        Bij de vraag “Configure as a single-page app (rewrite all urls to /index.html)?” antwoorden we ja.
                                         <br/><br/>
                                         Ten slotte gebruiken we “<mark>firebase deploy</mark>” om het project naar Firebase to deployen. Als je dit gedaan hebt krijg je 
                                         een hosting URL waarop je website staat. Je kan hem ook terugvinden op de website van Firebase bij “Hosting”.

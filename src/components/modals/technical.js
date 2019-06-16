@@ -42,7 +42,7 @@ export default class Technical extends React.Component {
                     Technical
                 </Menu.Item>
             }>
-                <Modal.Header>List of Frameworks and Libraries for Development</Modal.Header>
+                <Modal.Header>Lijst van Frameworks en Libraries</Modal.Header>
                 <Modal.Content>
                     <Modal.Description>
                         <Grid columns={3}>

@@ -9,7 +9,7 @@ export default class NPMCard extends React.Component {
                 <Card.Content>
                     <Card.Header>Node Package Manager</Card.Header>
                     <Card.Meta><span>JavaScript Package Manager</span></Card.Meta>
-                    <Card.Description>Downloads and managers packages like ReactJS or SemanticJS, which are written by other companies or developers and made publicly available to use</Card.Description>
+                    <Card.Description>Downloads and manages packages like ReactJS or SemanticJS, which are written by other companies or developers and made publicly available to use</Card.Description>
                 </Card.Content>
                 <Card.Content extra>
                     <a rel="noopener noreferrer" href="https://github.com/isaacs" target="_blank">

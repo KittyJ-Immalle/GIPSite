@@ -86,7 +86,7 @@ export default class Reportage extends React.Component{
                                             <img className="ui centered large image rounded" src='img/lunch.jpg' alt="a"/>
                                             <div className="font-arial text-17 line-spacing text-center">
                                                 <br></br>
-                                                Notre imprimante! Ah oui, tu restes toujours dans ma mémoire! Je me rappelle les moments quand tu as fait les sons: “beep… beep… beep....”. Très magnifique!
+                                                Chaque midi nous mangions dans la cuisine. Parfois je souhaite que je puisse manger une pizza ou des frites chaque jour mais peut-être ce n’est pas une de mes meilleures idées.
                                             </div><br/>
                                         </Segment>
                                     </Grid.Column>
