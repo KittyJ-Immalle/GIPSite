@@ -215,7 +215,24 @@ export default class Landing extends React.Component {
                                 <Route exact path="/wat-is-onenote" render={prop => <WatIsOneNote showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/faq" render={prop => <FAQ showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/webapplicatie" render={prop => <Webapplicatie showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
-                                <Route exact path="/it-tapa" render={prop => <ITTapa showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
+                                <Route exact path="/it-tapa"
+                                    render={prop => <ITTapa 
+                                        showSideBar={this.showSideBar.bind(this)} 
+                                        hideSideBar={this.hideSideBar.bind(this)}
+                                        selectWatIsOneNote={this.selectWatIsOneNote.bind(this)}
+                                        selectWatMetOneNoteDoen={this.selectWatMetOneNoteDoen.bind(this)}
+                                        selectWaarOneNoteGebruiken={this.selectWaarOneNoteGebruiken.bind(this)}
+                                        selectVerschilOneNoteEnOneNote2016={this.selectVerschilOneNoteEnOneNote2016.bind(this)}
+                                        selectPersoonlijkeNotitieblok={this.selectPersoonlijkeNotitieblok.bind(this)}
+                                        selectInloggen={this.selectInloggen.bind(this)}
+                                        selectHoeGebruikenOneNote={this.selectHoeGebruikenOneNote.bind(this)}
+                                        selectUitlegOpmaakUitlijning={this.selectUitlegOpmaakUitlijning.bind(this)}
+                                        selectKlasnotitieblokDownloaden={this.selectKlasnotitieblokDownloaden.bind(this)}
+                                        selectSectiesAanmaken={this.selectSectiesAanmaken.bind(this)}
+                                        selectLinksDistribueren={this.selectLinksDistribueren.bind(this)}
+                                        selectTipsTricks={this.selectTipsTricks.bind(this)}
+                                    />}
+                                />
                                 <Route exact path="/bedrijfseconomische-analyse" render={prop => <BedrijfseconomischeAnalyse showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/case-study-two" render={prop => <CaseStudyTwo showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>
                                 <Route exact path="/case-study-one" render={prop => <CaseStudyOne showSideBar = {this.showSideBar.bind(this)} hideSideBar={this.hideSideBar.bind(this)}/>}/>

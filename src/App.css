@@ -134,6 +134,10 @@ img {
   margin: auto;
 }
 
+.logo {
+  height: 100px;
+}
+
 .container {
   width: 100%;
 }
